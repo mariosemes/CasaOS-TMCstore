@@ -53,7 +53,6 @@ x-casaos:
   main: app
   port_map: "2368"
   scheme: http
-  store_app_id: ghost
   tagline:
     en_us: Free And Open-source Blogging Platform
   thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
