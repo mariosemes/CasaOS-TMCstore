@@ -1,0 +1,61 @@
+name: ghost
+services:
+  app:
+    depends_on:
+      - ghost-db
+    environment:
+      - NODE_ENV=production
+      - database__client=mysql
+      - database__connection__host=ghost-db
+      - database__connection__user=root
+      - database__connection__password=VtRQzoumfpJRe7Y28!G
+      - database__connection__database=ghost
+    image: ghost:latest
+    labels:
+      icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
+    ports:
+      - target: 2368
+        published: "2368"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ghost/content
+        target: /var/lib/ghost/content
+    network_mode: bridge
+    privileged: false
+  ghost-db:
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=VtRQzoumfpJRe7Y28!G
+    image: mysql:8
+    labels:
+      icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ghost/mysql
+        target: /var/lib/mysql
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: TMC
+  category: TMCstore
+  description:
+    en_us: Free and open-source blogging platform
+  developer: ""
+  icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
+  index: /
+  main: app
+  port_map: "2368"
+  scheme: http
+  store_app_id: ghost
+  tagline:
+    en_us: Free And Open-source Blogging Platform
+  thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
+  title:
+    en_us: Ghost

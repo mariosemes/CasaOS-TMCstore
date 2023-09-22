@@ -1,0 +1,52 @@
+name: changedetection
+services:
+  app:
+    depends_on:
+      - playwright-chrome
+    environment:
+      - BASE_URL=https://google.com
+      - HIDE_REFERER=false
+      - PLAYWRIGHT_DRIVER_URL=ws://playwright-chrome:3000/?stealth
+      - USE_X_SETTINGS=1
+      - WEBDRIVER_URL=http://playwright-chrome:4444/wd/hub
+    image: ghcr.io/dgtlmoon/changedetection.io:dev
+    ports:
+      - target: 5000
+        published: "5550"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Changedetection
+        target: /datastore
+    network_mode: bridge
+    privileged: false
+  playwright-chrome:
+    environment:
+      - CHROME_REFRESH_TIME=1200000
+      - CONNECTION_TIMEOUT=450000
+      - DEFAULT_STEALTH=true
+      - ENABLE_DEBUGGER=true
+      - MAX_CONCURRENT_SESSIONS=4
+      - PREBOOT_CHROME=true
+      - SCREEN_DEPTH=16
+      - SCREEN_HEIGHT=820
+      - SCREEN_WIDTH=375
+    image: browserless/chrome
+    restart: unless-stopped
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  architectures:
+      - amd64
+      - arm
+      - arm64
+  author: TMC
+  category: TMCstore
+  icon: ""
+  index: /
+  port_map: "5550"
+  scheme: http
+  store_app_id: changedetection
+  title:
+    custom: Changedetection
