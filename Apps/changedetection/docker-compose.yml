@@ -47,6 +47,6 @@ x-casaos:
   index: /
   port_map: "5550"
   scheme: http
-  store_app_id: changedetection
+  store_app_id: changedetection-tmc
   title:
     custom: Changedetection
