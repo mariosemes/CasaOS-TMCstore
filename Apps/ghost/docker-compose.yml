@@ -1,6 +1,8 @@
 name: ghost
 services:
   app:
+    container_name: ghost
+    hostname: ghost
     depends_on:
       - ghost-db
     environment:
@@ -8,7 +10,7 @@ services:
       - database__client=mysql
       - database__connection__host=ghost-db
       - database__connection__user=root
-      - database__connection__password=VtRQzoumfpJRe7Y28!G
+      - database__connection__password=CrazyGoodDatabasePassword1337!
       - database__connection__database=ghost
     image: ghost:latest
     labels:
@@ -22,12 +24,16 @@ services:
       - type: bind
         source: /DATA/AppData/ghost/content
         target: /var/lib/ghost/content
-    network_mode: bridge
+    networks:
+      - ghost
     privileged: false
+
   ghost-db:
+    container_name: ghost-db
+    hostname: ghost-db
     command: --default-authentication-plugin=mysql_native_password
     environment:
-      - MYSQL_ROOT_PASSWORD=VtRQzoumfpJRe7Y28!G
+      - MYSQL_ROOT_PASSWORD=CrazyGoodDatabasePassword1337!
     image: mysql:8
     labels:
       icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
@@ -36,8 +42,14 @@ services:
       - type: bind
         source: /DATA/AppData/ghost/mysql
         target: /var/lib/mysql
-    network_mode: bridge
+    networks:
+      - ghost
     privileged: false
+
+networks:
+  ghost:
+    name: ghost
+
 x-casaos:
   architectures:
     - amd64
@@ -53,7 +65,6 @@ x-casaos:
   main: app
   port_map: "2368"
   scheme: http
-  store_app_id: ghost-tmc
   tagline:
     en_us: Free And Open-source Blogging Platform
   thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png

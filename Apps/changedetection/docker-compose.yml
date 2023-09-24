@@ -1,27 +1,33 @@
 name: changedetection
 services:
   app:
-    depends_on:
-      - playwright-chrome
     environment:
       - BASE_URL=https://google.com
       - HIDE_REFERER=false
-      - PLAYWRIGHT_DRIVER_URL=ws://playwright-chrome:3000/?stealth
+      - PLAYWRIGHT_DRIVER_URL=ws://browserless-chrome:3000/?stealth
       - USE_X_SETTINGS=1
-      - WEBDRIVER_URL=http://playwright-chrome:4444/wd/hub
+      - WEBDRIVER_URL=http://browserless-chrome:4444/wd/hub
     image: ghcr.io/dgtlmoon/changedetection.io:dev
     ports:
       - target: 5000
-        published: "5550"
+        published: "5005"
         protocol: tcp
     restart: unless-stopped
     volumes:
       - type: bind
-        source: /DATA/AppData/Changedetection
+        source: /DATA/AppData/changedetection/data
         target: /datastore
-    network_mode: bridge
+    depends_on:
+      - browserless-chrome
+    networks:
+      - changedetection
     privileged: false
-  playwright-chrome:
+    container_name: changedetection
+    hostname: changedetection
+
+  browserless-chrome:
+    container_name: browserless-chrome
+    hostname: browserless-chrome
     environment:
       - CHROME_REFRESH_TIME=1200000
       - CONNECTION_TIMEOUT=450000
@@ -33,20 +39,24 @@ services:
       - SCREEN_HEIGHT=820
       - SCREEN_WIDTH=375
     image: browserless/chrome
+    labels:
+      icon: https://raw.githubusercontent.com/browserless/chrome/master/assets/browserless_logo_screen_gradient.png
     restart: unless-stopped
-    network_mode: bridge
+    networks:
+      - changedetection
     privileged: false
+
+networks:
+  changedetection:
+    name: changedetection
+
 x-casaos:
-  architectures:
-      - amd64
-      - arm
-      - arm64
-  author: TMC
-  category: TMCstore
-  icon: ""
+  author: self
+  category: self
+  hostname: ""
+  icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   index: /
-  port_map: "5550"
+  port_map: "5005"
   scheme: http
-  store_app_id: changedetection-tmc
   title:
     custom: Changedetection
