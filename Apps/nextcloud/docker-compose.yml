@@ -1,20 +1,15 @@
 name: nextcloud
 services:
-  app:
+  nextcloud:
+    image: ghcr.io/crazy-max/nextcloud:latest
     container_name: nextcloud
     depends_on:
-      db:
-        condition: service_started
-        required: true
-      msmtpd:
-        condition: service_started
-        required: true
-      redis:
-        condition: service_started
-        required: true
+      - db
+      - msmtpd
+      - redis
     environment:
       - APC_SHM_SIZE=128M
-      - DB_HOST=db
+      - DB_HOST=nextcloud-db
       - DB_NAME=nextcloud_db
       - DB_PASSWORD=grw5gr4rwRWGwg
       - DB_TYPE=mysql
@@ -30,8 +25,11 @@ services:
       - RP_HEADER=strict-origin
       - TZ=Europe/Paris
       - UPLOAD_MAX_SIZE=512M
-    hostname: nextcloud
-    image: crazymax/nextcloud:latest
+    healthcheck:
+      test: curl -sSf 'http://localhost/status.php' | grep '"installed":true' | grep '"maintenance":false' | grep '"needsDbUpgrade":false' || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
     ports:
       - target: 8000
         published: "8337"
@@ -41,29 +39,21 @@ services:
       - type: bind
         source: /DATA/AppData/Nextcloud/data
         target: /data
-    devices: []
-    cap_add: []
-    command: []
+    x-casaos:
+      envs: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
 
   cron:
-    container_name: nextcloud_cron
-    hostname: cron
+    image: ghcr.io/crazy-max/nextcloud:latest
+    container_name: nextcloud-cron
     depends_on:
-      app:
-        condition: service_started
-        required: true
+      - nextcloud
     environment:
       - APC_SHM_SIZE=128M
       - CRON_PERIOD=*/5 * * * *
-      - DB_HOST=db
+      - DB_HOST=nextcloud-db
       - DB_NAME=nextcloud_db
       - DB_PASSWORD=grw5gr4rwRWGwg
       - DB_TYPE=mysql
@@ -80,54 +70,39 @@ services:
       - SIDECAR_CRON=1
       - TZ=Europe/Paris
       - UPLOAD_MAX_SIZE=512M
-    image: crazymax/nextcloud:latest
     restart: unless-stopped
+    x-casaos:
+      envs: []
     volumes:
       - type: bind
         source: /DATA/AppData/Nextcloud/mysql
         target: /var/lib/mysql
-    ports: []
-    devices: []
-    cap_add: []
-    command: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
 
   db:
-    container_name: nextcloud_db
-    hostname: db
+    image: mariadb:10.5
+    container_name: nextcloud-db
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_DATABASE=nextcloud_db
       - MYSQL_PASSWORD=grw5gr4rwRWGwg
       - MYSQL_USER=nextcloud_user
-    image: mariadb:10.5
     restart: unless-stopped
+    x-casaos:
+      envs: []
     volumes:
       - type: bind
         source: /DATA/AppData/Nextcloud/mysql
         target: /var/lib/mysql
-    ports: []
-    devices: []
-    cap_add: []
-    command: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
+
   msmtpd:
-    container_name: nextcloud_msmtpd
-    hostname: msmtpd
+    image: crazymax/msmtpd:latest
+    container_name: nextcloud-msmtpd
     environment:
       - SMTP_AUTH=on
       - SMTP_FROM=foo@gmail.com
@@ -139,32 +114,21 @@ services:
       - SMTP_TLS_CHECKCERT=on
       - SMTP_USER=foo
       - TZ=Europe/Paris
-    image: crazymax/msmtpd:latest
     restart: unless-stopped
-    ports: []
-    volumes: []
-    devices: []
-    cap_add: []
-    command: []
+    x-casaos:
+      envs: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
 
   news_updater:
-    container_name: nextcloud_news_updater
-    hostname: news
+    image: ghcr.io/crazy-max/nextcloud:latest
+    container_name: nextcloud-news-updater
     depends_on:
-      app:
-        condition: service_started
-        required: true
+      - nextcloud
     environment:
       - APC_SHM_SIZE=128M
-      - DB_HOST=db
+      - DB_HOST=nextcloud-db
       - DB_NAME=nextcloud_db
       - DB_PASSWORD=grw5gr4rwRWGwg
       - DB_TYPE=mysql
@@ -185,35 +149,25 @@ services:
       - SIDECAR_NEWSUPDATER=1
       - TZ=Europe/Paris
       - UPLOAD_MAX_SIZE=512M
-    image: crazymax/nextcloud:latest
     restart: unless-stopped
+    x-casaos:
+      envs: []
     volumes:
       - type: bind
         source: /DATA/AppData/Nextcloud/mysql
         target: /var/lib/mysql
-    ports: []
-    devices: []
-    cap_add: []
-    command: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
 
   previewgen:
-    container_name: nextcloud_previewgen
-    hostname: previewgen
+    image: ghcr.io/crazy-max/nextcloud:latest
+    container_name: nextcloud-previewgen
     depends_on:
-      app:
-        condition: service_started
-        required: true
+      - nextcloud
     environment:
       - APC_SHM_SIZE=128M
-      - DB_HOST=db
+      - DB_HOST=nextcloud-db
       - DB_NAME=nextcloud_db
       - DB_PASSWORD=grw5gr4rwRWGwg
       - DB_TYPE=mysql
@@ -231,61 +185,50 @@ services:
       - SIDECAR_PREVIEWGEN=1
       - TZ=Europe/Paris
       - UPLOAD_MAX_SIZE=512M
-    image: crazymax/nextcloud:latest
     restart: unless-stopped
+    x-casaos:
+      envs: []
     volumes:
       - type: bind
         source: /DATA/AppData/Nextcloud/mysql
         target: /var/lib/mysql
-    ports: []
-    devices: []
-    cap_add: []
-    command: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
 
   redis:
-    container_name: nextcloud_redis
-    hostname: redis
+    image: redis:6-alpine
+    container_name: nextcloud-redis
     environment:
       - TZ=Europe/Paris
-    image: redis:6-alpine
     restart: unless-stopped
-    ports: []
-    volumes: []
-    devices: []
-    cap_add: []
-    command: []
+    x-casaos:
+      envs: []
     networks:
       - nextcloud
     privileged: false
-    cpu_shares: 90
-    deploy:
-      resources:
-        limits:
-          memory: 7902M
 
 networks:
   nextcloud:
     name: nextcloud
     
 x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: nextcloud
   author: crazy-max
   category: TMCstore
-  description: Nextcloud Docker image with advanced features.
-  hostname: ""
+  description: 
+    en_us: Nextcloud Docker image with advanced features.
+  tagline:
+    en_us: The productivity platform that keeps you in control
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   index: /
   port_map: "8337"
-  project_url: https://github.com/crazy-max/docker-nextcloud
-  scheme: https
+  scheme: http
   store_app_id: nextcloud
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   title:
-    custom: Nextcloud (Extended)
+    en_us: Nextcloud (Extended)
