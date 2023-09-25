@@ -16,7 +16,7 @@ x-casaos:
   category: TMCstore
   description:
     en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
-  developer: "deiucanta"
+  developer: deiucanta
   icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png
   index: /
   main: app
