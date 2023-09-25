@@ -1,50 +1,5 @@
 name: nextcloud
 services:
-  nextcloud:
-    image: crazymax/nextcloud:latest
-    container_name: nextcloud
-    depends_on:
-      - db
-      - msmtpd
-      - redis
-    environment:
-      - APC_SHM_SIZE=128M
-      - DB_HOST=nextcloud-db
-      - DB_NAME=nextcloud_db
-      - DB_PASSWORD=grw5gr4rwRWGwg
-      - DB_TYPE=mysql
-      - DB_USER=nextcloud_user
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
-      - OPCACHE_MEM_SIZE=128
-      - PGID=1000
-      - PUID=1000
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
-      - TZ=Europe/Paris
-      - UPLOAD_MAX_SIZE=512M
-    healthcheck:
-      test: curl -sSf 'http://localhost/status.php' | grep '"installed":true' | grep '"maintenance":false' | grep '"needsDbUpgrade":false' || exit 1
-      interval: 10s
-      timeout: 5s
-      retries: 10
-    ports:
-      - target: 8000
-        published: "8337"
-        protocol: tcp
-    restart: unless-stopped
-    volumes:
-      - type: bind
-        source: /DATA/AppData/Nextcloud/data
-        target: /data
-    x-casaos:
-      envs: []
-    networks:
-      - nextcloud
-    privileged: false
-
   cron:
     image: crazymax/nextcloud:latest
     container_name: nextcloud-cron
@@ -54,7 +9,15 @@ services:
       - CRON_PERIOD=*/5 * * * *
       - SIDECAR_CRON=1
       - TZ=Europe/Paris
-    restart: unless-stopped
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
     x-casaos:
       envs: []
     volumes:
@@ -73,7 +36,7 @@ services:
       - MYSQL_DATABASE=nextcloud_db
       - MYSQL_PASSWORD=grw5gr4rwRWGwg
       - MYSQL_USER=nextcloud_user
-    restart: unless-stopped
+    restart: always
     x-casaos:
       envs: []
     volumes:
@@ -98,7 +61,15 @@ services:
       - SMTP_TLS_CHECKCERT=on
       - SMTP_USER=foo
       - TZ=Europe/Paris
-    restart: unless-stopped
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
     x-casaos:
       envs: []
     networks:
@@ -117,7 +88,15 @@ services:
       - NC_NEWSUPDATER_TIMEOUT=300
       - SIDECAR_NEWSUPDATER=1
       - TZ=Europe/Paris
-    restart: unless-stopped
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
     x-casaos:
       envs: []
     volumes:
@@ -137,7 +116,15 @@ services:
       - PREVIEWGEN_PERIOD=0 * * * *
       - SIDECAR_PREVIEWGEN=1
       - TZ=Europe/Paris
-    restart: unless-stopped
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
     x-casaos:
       envs: []
     volumes:
@@ -153,7 +140,47 @@ services:
     container_name: nextcloud-redis
     environment:
       - TZ=Europe/Paris
-    restart: unless-stopped
+    restart: always
+    x-casaos:
+      envs: []
+    networks:
+      - nextcloud
+    privileged: false
+
+  nextcloud:
+    image: crazymax/nextcloud:latest
+    container_name: nextcloud
+    depends_on:
+      - db
+      - msmtpd
+      - redis
+    environment:
+      - TZ=Europe/Paris
+      - PGID=1000
+      - PUID=1000
+      - APC_SHM_SIZE=128M
+      - DB_HOST=nextcloud-db
+      - DB_NAME=nextcloud_db
+      - DB_PASSWORD=grw5gr4rwRWGwg
+      - DB_TYPE=mysql
+      - DB_USER=nextcloud_user
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    ports:
+      - target: 8000
+        published: "8337"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/data
+        target: /data
     x-casaos:
       envs: []
     networks:
