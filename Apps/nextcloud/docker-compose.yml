@@ -1,7 +1,7 @@
 name: nextcloud
 services:
   nextcloud:
-    image: ghcr.io/crazy-max/nextcloud:latest
+    image: crazymax/nextcloud:latest
     container_name: nextcloud
     depends_on:
       - db
@@ -46,7 +46,7 @@ services:
     privileged: false
 
   cron:
-    image: ghcr.io/crazy-max/nextcloud:latest
+    image: crazymax/nextcloud:latest
     container_name: nextcloud-cron
     depends_on:
       - nextcloud
@@ -122,7 +122,7 @@ services:
     privileged: false
 
   news_updater:
-    image: ghcr.io/crazy-max/nextcloud:latest
+    image: crazymax/nextcloud:latest
     container_name: nextcloud-news-updater
     depends_on:
       - nextcloud
@@ -161,7 +161,7 @@ services:
     privileged: false
 
   previewgen:
-    image: ghcr.io/crazy-max/nextcloud:latest
+    image: crazymax/nextcloud:latest
     container_name: nextcloud-previewgen
     depends_on:
       - nextcloud
