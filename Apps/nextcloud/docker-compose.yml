@@ -26,6 +26,33 @@ services:
     networks:
       - nextcloud
     privileged: false
+  
+  msmtpd:
+    image: crazymax/msmtpd:latest
+    container_name: nextcloud-msmtpd
+    environment:
+      - SMTP_AUTH=on
+      - SMTP_FROM=foo@gmail.com
+      - SMTP_HOST=smtp.gmail.com
+      - SMTP_PASSWORD=bar
+      - SMTP_PORT=587
+      - SMTP_STARTTLS=on
+      - SMTP_TLS=on
+      - SMTP_TLS_CHECKCERT=on
+      - SMTP_USER=foo
+      - TZ=Europe/Paris
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
+    networks:
+      - nextcloud
+    privileged: false
 
   nextcloud:
     image: crazymax/nextcloud:latest
@@ -61,33 +88,6 @@ services:
       - type: bind
         source: /DATA/AppData/Nextcloud/data
         target: /data
-    networks:
-      - nextcloud
-    privileged: false
-
-  msmtpd:
-    image: crazymax/msmtpd:latest
-    container_name: nextcloud-msmtpd
-    environment:
-      - SMTP_AUTH=on
-      - SMTP_FROM=foo@gmail.com
-      - SMTP_HOST=smtp.gmail.com
-      - SMTP_PASSWORD=bar
-      - SMTP_PORT=587
-      - SMTP_STARTTLS=on
-      - SMTP_TLS=on
-      - SMTP_TLS_CHECKCERT=on
-      - SMTP_USER=foo
-      - TZ=Europe/Paris
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
-      - OPCACHE_MEM_SIZE=128
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
-      - UPLOAD_MAX_SIZE=512M
-    restart: always
     networks:
       - nextcloud
     privileged: false
