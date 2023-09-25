@@ -8,7 +8,6 @@ services:
         published: "8088"
         protocol: tcp
     restart: unless-stopped
-    network-mode: bridge
     privileged: false
 
 x-casaos:
