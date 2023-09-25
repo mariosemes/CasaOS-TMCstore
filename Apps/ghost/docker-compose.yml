@@ -68,5 +68,6 @@ x-casaos:
   tagline:
     en_us: Free And Open-source Blogging Platform
   thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
+  store_app_id: ghost
   title:
     en_us: Ghost

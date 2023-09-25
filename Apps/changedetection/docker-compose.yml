@@ -1,5 +1,26 @@
 name: changedetection
 services:
+  browserless-chrome:
+    container_name: browserless-chrome
+    hostname: browserless-chrome
+    environment:
+      - CHROME_REFRESH_TIME=1200000
+      - CONNECTION_TIMEOUT=450000
+      - DEFAULT_STEALTH=true
+      - ENABLE_DEBUGGER=true
+      - MAX_CONCURRENT_SESSIONS=4
+      - PREBOOT_CHROME=true
+      - SCREEN_DEPTH=16
+      - SCREEN_HEIGHT=820
+      - SCREEN_WIDTH=375
+    image: browserless/chrome
+    labels:
+      icon: https://raw.githubusercontent.com/browserless/chrome/master/assets/browserless_logo_screen_gradient.png
+    restart: unless-stopped
+    networks:
+      - changedetection
+    privileged: false
+
   app:
     environment:
       - BASE_URL=https://google.com
@@ -24,27 +45,6 @@ services:
     privileged: false
     container_name: changedetection
     hostname: changedetection
-
-  browserless-chrome:
-    container_name: browserless-chrome
-    hostname: browserless-chrome
-    environment:
-      - CHROME_REFRESH_TIME=1200000
-      - CONNECTION_TIMEOUT=450000
-      - DEFAULT_STEALTH=true
-      - ENABLE_DEBUGGER=true
-      - MAX_CONCURRENT_SESSIONS=4
-      - PREBOOT_CHROME=true
-      - SCREEN_DEPTH=16
-      - SCREEN_HEIGHT=820
-      - SCREEN_WIDTH=375
-    image: browserless/chrome
-    labels:
-      icon: https://raw.githubusercontent.com/browserless/chrome/master/assets/browserless_logo_screen_gradient.png
-    restart: unless-stopped
-    networks:
-      - changedetection
-    privileged: false
 
 networks:
   changedetection:

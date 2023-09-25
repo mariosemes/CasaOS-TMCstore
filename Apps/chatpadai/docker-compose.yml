@@ -32,5 +32,6 @@ x-casaos:
   tagline:
     en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
   thumbnail: https://github.com/deiucanta/chatpad/raw/main/banner.png
+  store_app_id: chatpadai
   title:
     en_us: chatpadai
