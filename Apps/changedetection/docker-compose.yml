@@ -51,12 +51,22 @@ networks:
     name: changedetection
 
 x-casaos:
-  author: self
-  category: self
-  hostname: ""
+  main: app
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: TMC
+  category: TMCstore
+  description:
+    en_us: From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers.
+  developer: ""
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   index: /
   port_map: "5005"
   scheme: http
+  tagline:
+    en_us: From simply monitoring websites to deep inspection.
+  store_app_id: changedetection-tmc
   title:
-    custom: Changedetection
+    en_us: changedetection

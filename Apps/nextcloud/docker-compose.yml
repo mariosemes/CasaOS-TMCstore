@@ -212,6 +212,6 @@ x-casaos:
     custom: |
       Visit link to finish setup and finetune.
       https://github.com/crazy-max/docker-nextcloud/tree/master#nextcloud
-  store_app_id: nextcloud
+  store_app_id: nextcloud-tmc
   title:
     en_us: Nextcloud (Extended)

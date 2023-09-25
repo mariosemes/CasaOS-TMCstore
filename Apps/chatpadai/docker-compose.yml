@@ -19,7 +19,7 @@ x-casaos:
     - amd64
     - arm
     - arm64
-  author: TMC
+  author: deiucanta
   category: TMCstore
   description:
     en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
@@ -32,6 +32,6 @@ x-casaos:
   tagline:
     en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
   thumbnail: https://github.com/deiucanta/chatpad/raw/main/banner.png
-  store_app_id: chatpadai
+  store_app_id: chatpadai-tmc
   title:
     en_us: chatpadai

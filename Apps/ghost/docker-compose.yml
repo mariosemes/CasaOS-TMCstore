@@ -55,7 +55,7 @@ x-casaos:
     - amd64
     - arm
     - arm64
-  author: TMC
+  author: ghost
   category: TMCstore
   description:
     en_us: Free and open-source blogging platform
@@ -68,6 +68,6 @@ x-casaos:
   tagline:
     en_us: Free And Open-source Blogging Platform
   thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
-  store_app_id: ghost
+  store_app_id: ghost-tmc
   title:
     en_us: Ghost
