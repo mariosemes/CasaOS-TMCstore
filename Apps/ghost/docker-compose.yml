@@ -1,5 +1,21 @@
 name: ghost
 services:
+  ghost-db:
+    container_name: ghost-db
+    hostname: ghost-db
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=CrazyGoodDatabasePassword1337!
+    image: mysql:8
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ghost/mysql
+        target: /var/lib/mysql
+    networks:
+      - ghost
+    privileged: false
+  
   app:
     container_name: ghost
     hostname: ghost
@@ -13,8 +29,6 @@ services:
       - database__connection__password=CrazyGoodDatabasePassword1337!
       - database__connection__database=ghost
     image: ghost:latest
-    labels:
-      icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
     ports:
       - target: 2368
         published: "2368"
@@ -24,24 +38,6 @@ services:
       - type: bind
         source: /DATA/AppData/ghost/content
         target: /var/lib/ghost/content
-    networks:
-      - ghost
-    privileged: false
-
-  ghost-db:
-    container_name: ghost-db
-    hostname: ghost-db
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      - MYSQL_ROOT_PASSWORD=CrazyGoodDatabasePassword1337!
-    image: mysql:8
-    labels:
-      icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
-    restart: unless-stopped
-    volumes:
-      - type: bind
-        source: /DATA/AppData/ghost/mysql
-        target: /var/lib/mysql
     networks:
       - ghost
     privileged: false
