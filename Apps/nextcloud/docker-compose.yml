@@ -5,9 +5,9 @@ services:
     container_name: nextcloud-db
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_DATABASE=casaos
-      - MYSQL_PASSWORD=casaos
-      - MYSQL_USER=casaos
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_USER=nextcloud
     restart: always
     volumes:
       - type: bind
@@ -67,10 +67,10 @@ services:
       - PUID=1000
       - APC_SHM_SIZE=128M
       - DB_HOST=nextcloud-db
-      - DB_NAME=casaos
-      - DB_PASSWORD=casaos
+      - DB_NAME=nextcloud
+      - DB_PASSWORD=nextcloud
       - DB_TYPE=mysql
-      - DB_USER=casaos
+      - DB_USER=nextcloud
       - HSTS_HEADER=max-age=15768000; includeSubDomains
       - LOG_IP_VAR=remote_addr
       - MEMORY_LIMIT=512M
@@ -180,7 +180,7 @@ networks:
   nextcloud:
     name: nextcloud
     
-x-casaos:
+x-nextcloud:
   architectures:
     - amd64
     - arm
