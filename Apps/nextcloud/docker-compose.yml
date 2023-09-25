@@ -1,0 +1,291 @@
+name: nextcloud
+services:
+  app:
+    container_name: nextcloud
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+      msmtpd:
+        condition: service_started
+        required: true
+      redis:
+        condition: service_started
+        required: true
+    environment:
+      - APC_SHM_SIZE=128M
+      - DB_HOST=db
+      - DB_NAME=nextcloud_db
+      - DB_PASSWORD=grw5gr4rwRWGwg
+      - DB_TYPE=mysql
+      - DB_USER=nextcloud_user
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - PGID=1000
+      - PUID=1000
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - TZ=Europe/Paris
+      - UPLOAD_MAX_SIZE=512M
+    hostname: nextcloud
+    image: crazymax/nextcloud:latest
+    ports:
+      - target: 8000
+        published: "8337"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/data
+        target: /data
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+
+  cron:
+    container_name: nextcloud_cron
+    hostname: cron
+    depends_on:
+      app:
+        condition: service_started
+        required: true
+    environment:
+      - APC_SHM_SIZE=128M
+      - CRON_PERIOD=*/5 * * * *
+      - DB_HOST=db
+      - DB_NAME=nextcloud_db
+      - DB_PASSWORD=grw5gr4rwRWGwg
+      - DB_TYPE=mysql
+      - DB_USER=nextcloud_user
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - PGID=1000
+      - PUID=1000
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - SIDECAR_CRON=1
+      - TZ=Europe/Paris
+      - UPLOAD_MAX_SIZE=512M
+    image: crazymax/nextcloud:latest
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/mysql
+        target: /var/lib/mysql
+    ports: []
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+
+  db:
+    container_name: nextcloud_db
+    hostname: db
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE=nextcloud_db
+      - MYSQL_PASSWORD=grw5gr4rwRWGwg
+      - MYSQL_USER=nextcloud_user
+    image: mariadb:10.5
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/mysql
+        target: /var/lib/mysql
+    ports: []
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+  msmtpd:
+    container_name: nextcloud_msmtpd
+    hostname: msmtpd
+    environment:
+      - SMTP_AUTH=on
+      - SMTP_FROM=foo@gmail.com
+      - SMTP_HOST=smtp.gmail.com
+      - SMTP_PASSWORD=bar
+      - SMTP_PORT=587
+      - SMTP_STARTTLS=on
+      - SMTP_TLS=on
+      - SMTP_TLS_CHECKCERT=on
+      - SMTP_USER=foo
+      - TZ=Europe/Paris
+    image: crazymax/msmtpd:latest
+    restart: unless-stopped
+    ports: []
+    volumes: []
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+
+  news_updater:
+    container_name: nextcloud_news_updater
+    hostname: news
+    depends_on:
+      app:
+        condition: service_started
+        required: true
+    environment:
+      - APC_SHM_SIZE=128M
+      - DB_HOST=db
+      - DB_NAME=nextcloud_db
+      - DB_PASSWORD=grw5gr4rwRWGwg
+      - DB_TYPE=mysql
+      - DB_USER=nextcloud_user
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - NC_NEWSUPDATER_INTERVAL=900
+      - NC_NEWSUPDATER_LOGLEVEL=error
+      - NC_NEWSUPDATER_THREADS=10
+      - NC_NEWSUPDATER_TIMEOUT=300
+      - OPCACHE_MEM_SIZE=128
+      - PGID=1000
+      - PUID=1000
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - SIDECAR_NEWSUPDATER=1
+      - TZ=Europe/Paris
+      - UPLOAD_MAX_SIZE=512M
+    image: crazymax/nextcloud:latest
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/mysql
+        target: /var/lib/mysql
+    ports: []
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+
+  previewgen:
+    container_name: nextcloud_previewgen
+    hostname: previewgen
+    depends_on:
+      app:
+        condition: service_started
+        required: true
+    environment:
+      - APC_SHM_SIZE=128M
+      - DB_HOST=db
+      - DB_NAME=nextcloud_db
+      - DB_PASSWORD=grw5gr4rwRWGwg
+      - DB_TYPE=mysql
+      - DB_USER=nextcloud_user
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - PGID=1000
+      - PREVIEWGEN_PERIOD=0 * * * *
+      - PUID=1000
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - SIDECAR_PREVIEWGEN=1
+      - TZ=Europe/Paris
+      - UPLOAD_MAX_SIZE=512M
+    image: crazymax/nextcloud:latest
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/mysql
+        target: /var/lib/mysql
+    ports: []
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+
+  redis:
+    container_name: nextcloud_redis
+    hostname: redis
+    environment:
+      - TZ=Europe/Paris
+    image: redis:6-alpine
+    restart: unless-stopped
+    ports: []
+    volumes: []
+    devices: []
+    cap_add: []
+    command: []
+    networks:
+      - nextcloud
+    privileged: false
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 7902M
+
+networks:
+  nextcloud:
+    name: nextcloud
+    
+x-casaos:
+  author: crazy-max
+  category: TMCstore
+  description: Nextcloud Docker image with advanced features.
+  hostname: ""
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
+  index: /
+  port_map: "8337"
+  project_url: https://github.com/crazy-max/docker-nextcloud
+  scheme: https
+  store_app_id: nextcloud
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
+  title:
+    custom: Nextcloud (Extended)
