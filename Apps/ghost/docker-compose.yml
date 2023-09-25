@@ -47,6 +47,10 @@ networks:
     name: ghost
 
 x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
   author: ghost
   category: TMCstore
   description:

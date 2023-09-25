@@ -12,6 +12,10 @@ services:
     privileged: false
 
 x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
   author: deiucanta
   category: TMCstore
   description:
