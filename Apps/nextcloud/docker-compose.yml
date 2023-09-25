@@ -5,9 +5,9 @@ services:
     container_name: nextcloud-db
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_DATABASE=nextcloud_db
-      - MYSQL_PASSWORD=grw5gr4rwRWGwg
-      - MYSQL_USER=nextcloud_user
+      - MYSQL_DATABASE=casaos
+      - MYSQL_PASSWORD=casaos
+      - MYSQL_USER=casaos
     restart: always
     volumes:
       - type: bind
@@ -67,10 +67,10 @@ services:
       - PUID=1000
       - APC_SHM_SIZE=128M
       - DB_HOST=nextcloud-db
-      - DB_NAME=nextcloud_db
-      - DB_PASSWORD=grw5gr4rwRWGwg
+      - DB_NAME=casaos
+      - DB_PASSWORD=casaos
       - DB_TYPE=mysql
-      - DB_USER=nextcloud_user
+      - DB_USER=casaos
       - HSTS_HEADER=max-age=15768000; includeSubDomains
       - LOG_IP_VAR=remote_addr
       - MEMORY_LIMIT=512M
@@ -86,8 +86,63 @@ services:
     restart: always
     volumes:
       - type: bind
+        source: /DATA/AppData/nextcloud/config
+        target: /config
+      - type: bind
         source: /DATA/AppData/Nextcloud/data
         target: /data
+    networks:
+      - nextcloud
+    privileged: false
+  
+  cron:
+    image: crazymax/nextcloud:latest
+    container_name: nextcloud-cron
+    depends_on:
+      - nextcloud
+    environment:
+      - CRON_PERIOD=*/5 * * * *
+      - SIDECAR_CRON=1
+      - TZ=Europe/Paris
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/data
+        target: /data
+    networks:
+      - nextcloud
+    privileged: false
+  
+  previewgen:
+    image: crazymax/nextcloud:latest
+    container_name: nextcloud-previewgen
+    depends_on:
+      - nextcloud
+    environment:
+      - PREVIEWGEN_PERIOD=0 * * * *
+      - SIDECAR_PREVIEWGEN=1
+      - TZ=Europe/Paris
+      - HSTS_HEADER=max-age=15768000; includeSubDomains
+      - LOG_IP_VAR=remote_addr
+      - MEMORY_LIMIT=512M
+      - OPCACHE_MEM_SIZE=128
+      - REAL_IP_FROM=0.0.0.0/32
+      - REAL_IP_HEADER=X-Forwarded-For
+      - RP_HEADER=strict-origin
+      - UPLOAD_MAX_SIZE=512M
+    restart: always
+    volumes:
+      - type: bind
+        source: /DATA/AppData/Nextcloud/mysql
+        target: /var/lib/mysql
     networks:
       - nextcloud
     privileged: false
@@ -117,58 +172,6 @@ services:
       - type: bind
         source: /DATA/AppData/Nextcloud/mysql
         target: /var/lib/mysql
-    networks:
-      - nextcloud
-    privileged: false
-
-  previewgen:
-    image: crazymax/nextcloud:latest
-    container_name: nextcloud-previewgen
-    depends_on:
-      - nextcloud
-    environment:
-      - PREVIEWGEN_PERIOD=0 * * * *
-      - SIDECAR_PREVIEWGEN=1
-      - TZ=Europe/Paris
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
-      - OPCACHE_MEM_SIZE=128
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
-      - UPLOAD_MAX_SIZE=512M
-    restart: always
-    volumes:
-      - type: bind
-        source: /DATA/AppData/Nextcloud/mysql
-        target: /var/lib/mysql
-    networks:
-      - nextcloud
-    privileged: false
-
-  cron:
-    image: crazymax/nextcloud:latest
-    container_name: nextcloud-cron
-    depends_on:
-      - nextcloud
-    environment:
-      - CRON_PERIOD=*/5 * * * *
-      - SIDECAR_CRON=1
-      - TZ=Europe/Paris
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
-      - OPCACHE_MEM_SIZE=128
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
-      - UPLOAD_MAX_SIZE=512M
-    restart: always
-    volumes:
-      - type: bind
-        source: /DATA/AppData/Nextcloud/data
-        target: /data
     networks:
       - nextcloud
     privileged: false
