@@ -1,3 +1,5 @@
+# After installation
+
 ## Creating an Admin Account with database connection
 
 `1. Enter your Username & Password of your choice`
