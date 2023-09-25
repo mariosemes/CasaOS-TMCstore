@@ -14,8 +14,6 @@ services:
       - SCREEN_HEIGHT=820
       - SCREEN_WIDTH=375
     image: browserless/chrome
-    labels:
-      icon: https://raw.githubusercontent.com/browserless/chrome/master/assets/browserless_logo_screen_gradient.png
     restart: unless-stopped
     networks:
       - changedetection
@@ -69,4 +67,4 @@ x-casaos:
     en_us: From simply monitoring websites to deep inspection.
   store_app_id: changedetection-tmc
   title:
-    en_us: changedetection
+    en_us: Changedetection.io

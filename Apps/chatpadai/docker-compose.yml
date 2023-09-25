@@ -2,7 +2,6 @@ name: chatpadai
 services:
   app:
     container_name: chatpadai
-    hostname: chatpadai
     image: ghcr.io/deiucanta/chatpad:latest
     ports:
       - target: 80
@@ -32,4 +31,4 @@ x-casaos:
   thumbnail: https://github.com/deiucanta/chatpad/raw/main/banner.png
   store_app_id: chatpadai-tmc
   title:
-    en_us: chatpadai
+    en_us: ChatPadAI
