@@ -1,4 +1,4 @@
-name: nextcloud
+name: nextcloud-tmc
 services:
   db:
     image: mariadb:10.5

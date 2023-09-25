@@ -1,4 +1,4 @@
-name: chatpadai
+name: chatpadai-tmc
 services:
   app:
     container_name: chatpadai
