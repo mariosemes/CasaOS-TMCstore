@@ -12,10 +12,6 @@ services:
     privileged: false
 
 x-casaos:
-  architectures:
-    - amd64
-    - arm
-    - arm64
   author: deiucanta
   category: TMCstore
   description:
@@ -27,7 +23,7 @@ x-casaos:
   port_map: "8080"
   scheme: http
   tagline:
-    en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
+    en_us: User-friendly system for interacting with ChatGPT.
   thumbnail: https://github.com/deiucanta/chatpad/raw/main/banner.png
   store_app_id: chatpadai-tmc
   title:

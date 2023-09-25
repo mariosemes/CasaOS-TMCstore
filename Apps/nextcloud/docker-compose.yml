@@ -192,17 +192,13 @@ networks:
     name: nextcloud
     
 x-casaos:
-  architectures:
-    - amd64
-    - arm
-    - arm64
   main: nextcloud
   author: crazy-max
   category: TMCstore
   description: 
     en_us: Nextcloud Docker image with advanced features.
   tagline:
-    en_us: The productivity platform that keeps you in control
+    en_us: The productivity platform that keeps you in control.
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   index: /

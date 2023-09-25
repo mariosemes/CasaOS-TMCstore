@@ -51,14 +51,10 @@ networks:
     name: ghost
 
 x-casaos:
-  architectures:
-    - amd64
-    - arm
-    - arm64
   author: ghost
   category: TMCstore
   description:
-    en_us: Free and open-source blogging platform
+    en_us: Free and open-source blogging platform.
   developer: ""
   icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
   index: /
@@ -66,7 +62,7 @@ x-casaos:
   port_map: "2368"
   scheme: http
   tagline:
-    en_us: Free And Open-source Blogging Platform
+    en_us: Free And Open-source Blogging Platform.
   thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
   store_app_id: ghost-tmc
   title:
