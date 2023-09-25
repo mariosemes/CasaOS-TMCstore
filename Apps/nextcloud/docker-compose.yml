@@ -180,7 +180,7 @@ networks:
   nextcloud:
     name: nextcloud
     
-x-nextcloud:
+x-casaos:
   architectures:
     - amd64
     - arm
