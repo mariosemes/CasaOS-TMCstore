@@ -4,8 +4,6 @@ services:
     container_name: chatpadai
     hostname: chatpadai
     image: ghcr.io/deiucanta/chatpad:latest
-    labels:
-      icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/chatpadai.png
     ports:
       - target: 80
         published: "8080"
@@ -23,7 +21,7 @@ x-casaos:
   category: TMCstore
   description:
     en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
-  developer: ""
+  developer: "deiucanta"
   icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png
   index: /
   main: app
