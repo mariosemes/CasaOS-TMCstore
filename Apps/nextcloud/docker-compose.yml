@@ -189,7 +189,8 @@ x-casaos:
   author: crazy-max
   category: TMCstore
   description: 
-    en_us: Nextcloud Docker image with advanced features.
+    en_us: |
+      Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud/tree/master.
   tagline:
     en_us: The productivity platform that keeps you in control.
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
