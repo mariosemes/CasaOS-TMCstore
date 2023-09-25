@@ -51,25 +51,9 @@ services:
     depends_on:
       - nextcloud
     environment:
-      - APC_SHM_SIZE=128M
       - CRON_PERIOD=*/5 * * * *
-      - DB_HOST=nextcloud-db
-      - DB_NAME=nextcloud_db
-      - DB_PASSWORD=grw5gr4rwRWGwg
-      - DB_TYPE=mysql
-      - DB_USER=nextcloud_user
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
-      - OPCACHE_MEM_SIZE=128
-      - PGID=1000
-      - PUID=1000
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
       - SIDECAR_CRON=1
       - TZ=Europe/Paris
-      - UPLOAD_MAX_SIZE=512M
     restart: unless-stopped
     x-casaos:
       envs: []
@@ -127,28 +111,12 @@ services:
     depends_on:
       - nextcloud
     environment:
-      - APC_SHM_SIZE=128M
-      - DB_HOST=nextcloud-db
-      - DB_NAME=nextcloud_db
-      - DB_PASSWORD=grw5gr4rwRWGwg
-      - DB_TYPE=mysql
-      - DB_USER=nextcloud_user
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
       - NC_NEWSUPDATER_INTERVAL=900
       - NC_NEWSUPDATER_LOGLEVEL=error
       - NC_NEWSUPDATER_THREADS=10
       - NC_NEWSUPDATER_TIMEOUT=300
-      - OPCACHE_MEM_SIZE=128
-      - PGID=1000
-      - PUID=1000
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
       - SIDECAR_NEWSUPDATER=1
       - TZ=Europe/Paris
-      - UPLOAD_MAX_SIZE=512M
     restart: unless-stopped
     x-casaos:
       envs: []
@@ -166,25 +134,9 @@ services:
     depends_on:
       - nextcloud
     environment:
-      - APC_SHM_SIZE=128M
-      - DB_HOST=nextcloud-db
-      - DB_NAME=nextcloud_db
-      - DB_PASSWORD=grw5gr4rwRWGwg
-      - DB_TYPE=mysql
-      - DB_USER=nextcloud_user
-      - HSTS_HEADER=max-age=15768000; includeSubDomains
-      - LOG_IP_VAR=remote_addr
-      - MEMORY_LIMIT=512M
-      - OPCACHE_MEM_SIZE=128
-      - PGID=1000
       - PREVIEWGEN_PERIOD=0 * * * *
-      - PUID=1000
-      - REAL_IP_FROM=0.0.0.0/32
-      - REAL_IP_HEADER=X-Forwarded-For
-      - RP_HEADER=strict-origin
       - SIDECAR_PREVIEWGEN=1
       - TZ=Europe/Paris
-      - UPLOAD_MAX_SIZE=512M
     restart: unless-stopped
     x-casaos:
       envs: []
