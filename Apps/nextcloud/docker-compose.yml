@@ -22,8 +22,8 @@ services:
       envs: []
     volumes:
       - type: bind
-        source: /DATA/AppData/Nextcloud/mysql
-        target: /var/lib/mysql
+        source: /DATA/AppData/Nextcloud/data
+        target: /data
     networks:
       - nextcloud
     privileged: false
