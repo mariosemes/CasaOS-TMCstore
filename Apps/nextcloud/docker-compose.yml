@@ -229,6 +229,10 @@ x-casaos:
   index: /
   port_map: "8337"
   scheme: http
+  tips:
+    custom: |
+      Visit link to finish setup and finetune.
+      https://github.com/crazy-max/docker-nextcloud/tree/master#nextcloud
   store_app_id: nextcloud
   title:
     en_us: Nextcloud (Extended)
