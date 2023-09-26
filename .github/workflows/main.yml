@@ -32,11 +32,13 @@ jobs:
             if [ -f "$app_folder/app.json" ]; then
               app_data=$(cat "$app_folder/app.json")
               app_name=$(echo "$app_data" | jq -r .app)
+              app_name_url=$(echo "$app_data" | jq -r .app_url)
               app_description=$(echo "$app_data" | jq -r .description)
               app_image=$(echo "$app_data" | jq -r .image)
+              app_image_url=$(echo "$app_data" | jq -r .image_url)
               app_tag=$(echo "$app_data" | jq -r .tag)
 
-              app_list+="| $app_name | $app_image | $app_tag | $app_description |\n"
+              app_list+="| [$app_name]($app_name_url) | [![tag](https://img.shields.io/badge/ghcr.io/dgtlmoon/$app_image-$app_tag-blue)]($app_image_url) | $app_description |\n"
             fi
           done
 
