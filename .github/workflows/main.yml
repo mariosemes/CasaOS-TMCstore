@@ -24,6 +24,9 @@ jobs:
       - name: Generate Apps List
         id: generate-apps-list
         run: |
+          # Create an empty README.md file
+          echo "" > README.md
+  
           app_list=""
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
@@ -42,7 +45,7 @@ jobs:
       - name: Append App List to README.md
         run: |
           app_list="${{ steps.generate-apps-list.outputs.content }}"
-          echo "${app_list}" >> README.md
+          printf "%s" "${app_list}" >> README.md
 
       - name: Commit and Push Changes
         run: |
