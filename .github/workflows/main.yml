@@ -39,10 +39,10 @@ jobs:
 
           echo "::set-output name=content::${app_list}"
 
-      - name: Update README.md with App List
+      - name: Append App List to README.md
         run: |
           app_list="${{ steps.generate-apps-list.outputs.content }}"
-          awk -v app_list="$app_list" '/\| --- \| --- \| --- \| --- \|\n/ {print; print app_list; next} 1' ABOUT.md > README.md
+          echo "${app_list}" >> README.md
 
       - name: Commit and Push Changes
         run: |
