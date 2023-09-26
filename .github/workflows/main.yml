@@ -42,7 +42,7 @@ jobs:
       - name: Update README.md with App List
         run: |
           app_list="${{ steps.generate-apps-list.outputs.content }}"
-          awk -v app_list="$app_list" '/### Apps/ {print; print app_list; next} 1' ABOUT.md > README.md
+          awk -v app_list="$app_list" '/\| --- \| --- \| --- \| --- \|\n/ {print; print app_list; next} 1' ABOUT.md > README.md
 
       - name: Commit and Push Changes
         run: |
