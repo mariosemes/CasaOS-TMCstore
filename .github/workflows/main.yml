@@ -29,7 +29,7 @@ jobs:
         id: generate-apps-list
         run: |
           new_content="${{ steps.about.outputs.content }}"
-
+      
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
               app_data=$(cat "$app_folder/app.json")
@@ -37,13 +37,14 @@ jobs:
               app_description=$(echo "$app_data" | jq -r .description)
               app_image=$(echo "$app_data" | jq -r .image)
               app_tag=$(echo "$app_data" | jq -r .tag)
-
-              new_content+="| $app_name | $app_image | $app_tag | $app_description |"
+      
+              # Add app information with proper line breaks
+              new_content+="\n\n### $app_name\n\n**Description:** $app_description\n**Image:** $app_image:$app_tag\n\n"
             fi
           done
-
+      
           echo "::set-output name=content::${new_content}"
-
+          
       - name: Write Merged Content to README.md
         run: echo "${{ steps.generate-apps-list.outputs.content }}" > README.md
 
