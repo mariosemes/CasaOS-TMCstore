@@ -21,15 +21,13 @@ jobs:
       - name: Install jq
         run: sudo apt-get install jq -y
 
-      - name: Read ABOUT.md
-        id: about
-        run: echo ::set-output name=content::$(cat ABOUT.md)
-
       - name: Generate Apps List
         id: generate-apps-list
         run: |
-          new_content="${{ steps.about.outputs.content }}"
-      
+          # Create an empty README.md file
+          echo "" > README.md
+  
+          app_list=""
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
               app_data=$(cat "$app_folder/app.json")
@@ -37,16 +35,17 @@ jobs:
               app_description=$(echo "$app_data" | jq -r .description)
               app_image=$(echo "$app_data" | jq -r .image)
               app_tag=$(echo "$app_data" | jq -r .tag)
-      
-              # Add app information with proper line breaks
-              new_content+="| $app_name | $app_image | $app_tag | $app_description |"
+
+              app_list+="| $app_name | $app_image | $app_tag | $app_description |\n"
             fi
           done
-      
-          echo "::set-output name=content::${new_content}"
-          
-      - name: Write Merged Content to README.md
-        run: printf "%s" "${{ steps.generate-apps-list.outputs.content }}" > README.md
+
+          echo "::set-output name=content::${app_list}"
+
+      - name: Update README.md with App List
+        run: |
+          app_list="${{ steps.generate-apps-list.outputs.content }}"
+          awk -v app_list="$app_list" '1; ENDFILE { printf "%s", app_list }' ABOUT.md > README.md
 
       - name: Commit and Push Changes
         run: |
