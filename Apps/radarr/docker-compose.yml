@@ -1,12 +1,19 @@
-name: chatpadai-tmc
+name: radarr-tmc
 services:
   app:
-    container_name: chatpadai
-    image: ghcr.io/deiucanta/chatpad:latest
+    container_name: radarr
+    image: lscr.io/linuxserver/radarr:develop
     ports:
-      - target: 80
-        published: "8088"
+      - target: 7878
+        published: "7878"
         protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/radarr-tmc/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/radarr-tmc/media
+        target: /media
     restart: unless-stopped
     privileged: false
 
@@ -15,21 +22,24 @@ x-casaos:
     - amd64
     - arm
     - arm64
-  author: deiucanta
+  author: radarr
   category: TMCstore
   description:
-    en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
+    en_us: Radarr is a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.
   developer: deiucanta
-  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/icon.png
   index: /
   main: app
-  port_map: "8088"
+  port_map: "7878"
   scheme: http
   tagline:
-    en_us: User-friendly system for interacting with ChatGPT.
-  store_app_id: chatpadai-tmc
+    en_us: Radarr is a movie collection manager for Usenet and BitTorrent users.
+  store_app_id: radarr-tmc
   title:
-    en_us: ChatPadAI
+    en_us: Radarr
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/screenshot-01.png
-  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/screenshot-01.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/screenshot-02.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/screenshot-03.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/screenshot-04.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/thumbnail.png
