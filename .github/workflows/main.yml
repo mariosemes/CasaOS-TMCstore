@@ -21,15 +21,10 @@ jobs:
       - name: Install jq
         run: sudo apt-get install jq -y
 
-      - name: Read ABOUT.md
-        id: about
-        run: echo ::set-output name=content::$(cat ABOUT.md)
-
       - name: Generate Apps List
         id: generate-apps-list
         run: |
-          new_content="${{ steps.about.outputs.content }}"
-
+          app_list=""
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
               app_data=$(cat "$app_folder/app.json")
@@ -38,15 +33,18 @@ jobs:
               app_image=$(echo "$app_data" | jq -r .image)
               app_tag=$(echo "$app_data" | jq -r .tag)
 
-              new_content+="| $app_name | $app_image | $app_tag | $app_description |"
+              app_list+="| $app_name | $app_image | $app_tag | $app_description |\n"
             fi
           done
 
-          echo "::set-output name=content::${new_content}"
+          # Replace the placeholder in the template with the generated app list
+          sed -i '/### Apps/,/| --- | --- | --- | --- |/{//!d; /| --- | --- | --- | --- |/a\'"${app_list}" README_TEMPLATE.md
+          
+        echo "::set-output name=content::${app_list}"
 
-      - name: Write Merged Content to README.md
-        run: echo "${{ steps.generate-apps-list.outputs.content }}" > README.md
-
+      - name: Create README.md
+        run: cp README_TEMPLATE.md README.md
+        
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions"
