@@ -1,0 +1,42 @@
+name: sonarr-tmc
+services:
+  app:
+    container_name: sonarr
+    image: lscr.io/linuxserver/sonarr:develop
+    ports:
+      - target: 8989
+        published: "8989"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sonarr-tmc/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sonarr-tmc/media
+        target: /media
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: sonarr
+  category: TMCstore
+  description:
+    en_us: sonarr is a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.
+  developer: sonarr
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/sonarr/icon.png
+  index: /
+  main: app
+  port_map: "8989"
+  scheme: http
+  tagline:
+    en_us: sonarr is a movie collection manager for Usenet and BitTorrent users.
+  store_app_id: sonarr-tmc
+  title:
+    en_us: sonarr
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/sonarr/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/sonarr/thumbnail.png
