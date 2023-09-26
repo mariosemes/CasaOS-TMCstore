@@ -46,7 +46,7 @@ jobs:
           echo "::set-output name=content::${new_content}"
           
       - name: Write Merged Content to README.md
-        run: echo "${{ steps.generate-apps-list.outputs.content }}" > README.md
+        run: printf "%s" "${{ steps.generate-apps-list.outputs.content }}" > README.md
 
       - name: Commit and Push Changes
         run: |
