@@ -11,5 +11,5 @@
 
 ### Apps:
 
-| App Name | Image | Tag | Description |
-| --- | --- | --- | --- |
+| App Name | Image:Tag | Description |
+| --- | --- | --- |
