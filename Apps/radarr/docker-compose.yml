@@ -1,0 +1,35 @@
+name: chatpadai-tmc
+services:
+  app:
+    container_name: chatpadai
+    image: ghcr.io/deiucanta/chatpad:latest
+    ports:
+      - target: 80
+        published: "8088"
+        protocol: tcp
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: deiucanta
+  category: TMCstore
+  description:
+    en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
+  developer: deiucanta
+  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png
+  index: /
+  main: app
+  port_map: "8088"
+  scheme: http
+  tagline:
+    en_us: User-friendly system for interacting with ChatGPT.
+  store_app_id: chatpadai-tmc
+  title:
+    en_us: ChatPadAI
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/thumbnail.png
