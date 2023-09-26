@@ -190,7 +190,7 @@ x-casaos:
   category: TMCstore
   description: 
     en_us: |
-      Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud/tree/master.
+      Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud.
   tagline:
     en_us: The productivity platform that keeps you in control.
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/nextcloud/icon.png
@@ -200,7 +200,7 @@ x-casaos:
   tips:
     custom: |
       Visit link to finish setup and finetune.
-      https://github.com/crazy-max/docker-nextcloud/tree/master#nextcloud
+      https://github.com/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud
   store_app_id: nextcloud-tmc
   title:
     en_us: Nextcloud (Extended)
