@@ -1,5 +1,5 @@
 {
-	"app": "Radarr",
+	"app": "Radarr v4+",
 	"app_url": "https://radarr.video/",
 	"image": "lscr.io/linuxserver/radarr",
 	"image_url": "https://github.com/Radarr/Radarr",

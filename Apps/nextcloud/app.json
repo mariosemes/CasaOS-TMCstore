@@ -1,5 +1,5 @@
 {
-	"app": "Nextcloud",
+	"app": "Nextcloud (Extended)",
 	"app_url": "https://github.com/crazy-max/docker-nextcloud",
 	"image": "crazymax/nextcloud",
 	"image_url": "https://hub.docker.com/r/crazymax/nextcloud",
