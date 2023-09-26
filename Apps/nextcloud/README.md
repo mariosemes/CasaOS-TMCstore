@@ -28,3 +28,32 @@
 `2. On the left, go to Basic settings`
 
 `3. Under Background jobs, select Cron (Recommended)`
+
+---
+
+## Redis cache
+Redis is recommended, alongside APCu to make Nextcloud faster. If you want to enable Redis, open CasaOS Files manager and go:
+
+`/DATA/AppData/Nextcloud/data/config`
+
+Now open and edit **config.php**
+
+Find the link:
+
+`'memcache.local' => '\OC\Memcache\APCu',`
+
+and replace it with this:
+
+```
+    'memcache.local' => '\OC\Memcache\APCu',
+    'memcache.distributed' => '\OC\Memcache\Redis',
+    'memcache.locking' => '\OC\Memcache\Redis',
+    'redis' => array(
+        'host' => 'redis',
+        'port' => 6379,
+    ),
+```
+
+---
+
+### For more info and tuning, visit https://github.com/crazy-max/docker-nextcloud/tree/master
