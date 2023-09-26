@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install jq
+        run: sudo apt-get install jq -y
+      
       - name: Checkout Code
         uses: actions/checkout@v2
 
