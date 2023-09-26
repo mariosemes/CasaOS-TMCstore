@@ -40,7 +40,7 @@ jobs:
           # Replace the placeholder in the template with the generated app list
           sed -i '/### Apps/,/| --- | --- | --- | --- |/{//!d; /| --- | --- | --- | --- |/a\'"${app_list}" README_TEMPLATE.md
           
-        echo "::set-output name=content::${app_list}"
+          echo "::set-output name=content::${app_list}"
 
       - name: Create README.md
         run: cp README_TEMPLATE.md README.md
