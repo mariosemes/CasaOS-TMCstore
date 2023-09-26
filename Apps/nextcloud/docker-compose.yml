@@ -194,7 +194,6 @@ x-casaos:
   tagline:
     en_us: The productivity platform that keeps you in control.
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   index: /
   port_map: "8337"
   scheme: http
@@ -205,3 +204,7 @@ x-casaos:
   store_app_id: nextcloud-tmc
   title:
     en_us: Nextcloud (Extended)
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/nextcloud/screenshot-01.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/nextcloud/screenshot-02.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/nextcloud/thumbnail.png

@@ -27,7 +27,9 @@ x-casaos:
   scheme: http
   tagline:
     en_us: User-friendly system for interacting with ChatGPT.
-  thumbnail: https://github.com/deiucanta/chatpad/raw/main/banner.png
   store_app_id: chatpadai-tmc
   title:
     en_us: ChatPadAI
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/thumbnail.png

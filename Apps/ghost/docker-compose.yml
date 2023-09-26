@@ -63,7 +63,12 @@ x-casaos:
   scheme: http
   tagline:
     en_us: Free And Open-source Blogging Platform.
-  thumbnail: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
   store_app_id: ghost-tmc
   title:
     en_us: Ghost Blogging Platform
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-01.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-02.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-03.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/screenshot-04.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/thumbnail.png

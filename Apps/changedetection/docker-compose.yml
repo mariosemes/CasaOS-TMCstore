@@ -68,3 +68,6 @@ x-casaos:
   store_app_id: changedetection-tmc
   title:
     en_us: Changedetection.io
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/changedetection/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/changedetection/thumbnail.png
