@@ -29,6 +29,7 @@ jobs:
         id: generate-apps-list
         run: |
           new_content="${{ steps.about.outputs.content }}"
+          new_content+="\n\n| App Name | Image | Tag | Description |"
       
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
@@ -39,7 +40,7 @@ jobs:
               app_tag=$(echo "$app_data" | jq -r .tag)
       
               # Add app information with proper line breaks
-              new_content+="| $app_name | $app_image | $app_tag | $app_description |"
+              new_content+="\n| $app_name | $app_image | $app_tag | $app_description |"
             fi
           done
       
