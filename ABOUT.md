@@ -1,9 +1,9 @@
 ![hero](Assets/hero.jpg)
 
-![total views](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_views.svg)
-![total views per week](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_views_per_week.svg)
-![total clones](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_clones.svg)
-![total clones per week](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_clones_per_week.svg)
+[![total views](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_views.svg)](https://github.com/mariosemes/CasaOS-TMCstore/tree/traffic#-total-traffic-data-badge)
+[![total views per week](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_views_per_week.svg)](https://github.com/mariosemes/CasaOS-TMCstore/tree/traffic#-total-traffic-data-badge)
+[![total clones](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_clones.svg)](https://github.com/mariosemes/CasaOS-TMCstore/tree/traffic#-total-traffic-data-badge)
+[![total clones per week](https://raw.githubusercontent.com/mariosemes/CasaOS-TMCstore/traffic/total_clones_per_week.svg)](https://github.com/mariosemes/CasaOS-TMCstore/tree/traffic#-total-traffic-data-badge)
 
 # ⭐ CasaOS TMC Community App Store
 ```Believe it or not, but yet another CasaOS Community App Store based mostly on my usage and apps.```
