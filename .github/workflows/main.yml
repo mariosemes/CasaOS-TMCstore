@@ -4,3 +4,33 @@ on:
   push:
     branches:
       - main
+
+jobs:
+  generate-apps-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Generate Apps List
+        run: |
+          # Create an empty README.md file
+          echo "" > README.md
+
+          # Loop through app folders and append app info to README.md
+          for app_folder in Apps/*; do
+            if [ -f "$app_folder/app.json" ]; then
+              app_data=$(cat "$app_folder/app.json")
+              app_name=$(echo "$app_data" | jq -r .app)
+              app_description=$(echo "$app_data" | jq -r .description)
+              app_image=$(echo "$app_data" | jq -r .image)
+              app_tag=$(echo "$app_data" | jq -r .tag)
+
+              # Append app info to README.md
+              echo "### $app_name" >> README.md
+              echo "**Description:** $app_description" >> README.md
+              echo "**Image:** $app_image:$app_tag" >> README.md
+              echo "" >> README.md
+            fi
+          done
