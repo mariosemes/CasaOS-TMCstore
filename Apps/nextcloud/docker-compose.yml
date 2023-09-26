@@ -193,7 +193,7 @@ x-casaos:
       Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud/tree/master.
   tagline:
     en_us: The productivity platform that keeps you in control.
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/nextcloud/icon.png
   index: /
   port_map: "8337"
   scheme: http

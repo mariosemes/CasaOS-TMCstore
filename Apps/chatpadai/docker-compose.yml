@@ -20,7 +20,7 @@ x-casaos:
   description:
     en_us: Free and open-source software that provides a user-friendly system for interacting with ChatGPT.
   developer: deiucanta
-  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/chatpadai/icon.png
   index: /
   main: app
   port_map: "8088"

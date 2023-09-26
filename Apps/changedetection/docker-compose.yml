@@ -60,7 +60,7 @@ x-casaos:
   description:
     en_us: From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers.
   developer: ""
-  icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/changedetection/icon.png
   index: /
   port_map: "5005"
   scheme: http

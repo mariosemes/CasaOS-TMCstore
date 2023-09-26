@@ -56,7 +56,7 @@ x-casaos:
   description:
     en_us: Free and open-source blogging platform.
   developer: ""
-  icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/icon.png
   index: /
   main: app
   port_map: "2368"
