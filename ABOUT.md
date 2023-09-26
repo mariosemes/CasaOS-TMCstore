@@ -20,5 +20,5 @@ Believe it or not, but yet another CasaOS Community App Store based mostly on my
 
 ### Apps:
 
-| Thumbnail | App |
-| --- | --- |
+| App | Thumbnail |
+| :-- | --- |
