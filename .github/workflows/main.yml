@@ -33,7 +33,7 @@ jobs:
               app_image=$(echo "$app_data" | jq -r .image)
               app_tag=$(echo "$app_data" | jq -r .tag)
 
-              app_list+="| $app_name | $app_image | $app_tag | $app_description |\n"
+              app_list+="| $app_name | $app_image | $app_tag | $app_description |__"
             fi
           done
 
