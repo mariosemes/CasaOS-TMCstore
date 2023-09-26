@@ -40,7 +40,7 @@ jobs:
               app_tag=$(echo "$app_data" | jq -r .tag)
       
               # Add app information with proper line breaks
-              new_content+="\n| $app_name | $app_image | $app_tag | $app_description |"
+              new_content+="| $app_name | $app_image | $app_tag | $app_description | \n"
             fi
           done
       
@@ -49,7 +49,7 @@ jobs:
       - name: Write Merged Content to README.md
         run: |
           readme_content="${{ steps.generate-apps-list.outputs.content }}"
-          echo "${readme_content}" > README.md
+          printf "%s" "${readme_content}" > README.md
 
       - name: Commit and Push Changes
         run: |
