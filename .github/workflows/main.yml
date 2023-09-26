@@ -43,7 +43,7 @@ jobs:
           echo "::set-output name=content::${app_list}"
 
       - name: Create README.md
-        run: cp README_TEMPLATE.md README.md
+        run: cp ABOUT.md README.md
         
       - name: Commit and Push Changes
         run: |
