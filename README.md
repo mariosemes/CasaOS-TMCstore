@@ -1,5 +1,5 @@
 # CasaOS-TMCstore
-[![downloads](https://img.shields.io/github/downloads/mariosemes/CasaOS-TMCstore/total)](https://img.shields.io/github/downloads/mariosemes/CasaOS-TMCstore/total)
+[![Generate Apps List](https://github.com/mariosemes/CasaOS-TMCstore/actions/workflows/main.yml/badge.svg)](https://github.com/mariosemes/CasaOS-TMCstore/actions/workflows/main.yml) [![downloads](https://img.shields.io/github/downloads/mariosemes/CasaOS-TMCstore/total)](https://img.shields.io/github/downloads/mariosemes/CasaOS-TMCstore/total)
 
 ---
 
