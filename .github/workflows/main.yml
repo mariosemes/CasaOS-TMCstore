@@ -37,14 +37,13 @@ jobs:
             fi
           done
 
-          # Replace the placeholder in the template with the generated app list
-          sed -i '/### Apps/,/| --- | --- | --- | --- |/{//!d; /| --- | --- | --- | --- |/a\'"${app_list}" ABOUT.md
-          
           echo "::set-output name=content::${app_list}"
 
-      - name: Create README.md
-        run: cp ABOUT.md README.md
-        
+      - name: Update README.md with App List
+        run: |
+          app_list="${{ steps.generate-apps-list.outputs.content }}"
+          awk -v app_list="$app_list" '/### Apps/ {print; print app_list; next} 1' ABOUT.md > README.md
+
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions"
