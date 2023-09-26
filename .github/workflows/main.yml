@@ -33,9 +33,7 @@ jobs:
               app_image=$(echo "$app_data" | jq -r .image)
               app_tag=$(echo "$app_data" | jq -r .tag)
 
-              echo "### $app_name" >> README.md
-              echo "**Description:** $app_description" >> README.md
-              echo "**Image:** $app_image:$app_tag" >> README.md
+              echo "| $app_name | $app_image | $app_tag | $app_description |"
               echo "" >> README.md
             fi
           done
@@ -49,4 +47,3 @@ jobs:
           git push --set-upstream origin ${{ github.ref }}
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
