@@ -1,7 +1,7 @@
 {
 	"app": "Changedetection.io",
 	"app_url": "https://changedetection.io/",
-	"image": "changedetection.io",
+	"image": "ghcr.io/dgtlmoon/changedetection.io",
 	"image_url": "https://github.com/dgtlmoon/changedetection.io/pkgs/container/changedetection.io",
 	"tag": "dev",
 	"description": "From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers."
