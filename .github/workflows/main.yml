@@ -16,20 +16,15 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '14'
 
       - name: Install jq
         run: sudo apt-get install jq -y
 
-      - name: Read ABOUT.md
-        id: about
-        run: echo ::set-output name=content::$(cat ABOUT.md)
-
       - name: Generate Apps List
         id: generate-apps-list
         run: |
-          new_content="${{ steps.about.outputs.content }}"
-          new_content+="| App Name | Image | Tag | Description |"
+          new_content="| App Name | Image | Tag | Description |\n|---|---|---|---|"
       
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
@@ -40,13 +35,13 @@ jobs:
               app_tag=$(echo "$app_data" | jq -r .tag)
       
               # Add app information with proper line breaks
-              new_content+="| $app_name | $app_image | $app_tag | $app_description | \n"
+              new_content+="\n| $app_name | $app_image | $app_tag | $app_description |"
             fi
           done
       
           echo "::set-output name=content::${new_content}"
           
-      - name: Write Merged Content to README.md
+      - name: Write Content to README.md
         run: |
           readme_content="${{ steps.generate-apps-list.outputs.content }}"
           printf "%s" "${readme_content}" > README.md
@@ -60,4 +55,3 @@ jobs:
           git push --set-upstream origin ${{ github.ref }}
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
