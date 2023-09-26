@@ -1,0 +1,6 @@
+name: Generate Apps List
+
+on:
+  push:
+    branches:
+      - main
