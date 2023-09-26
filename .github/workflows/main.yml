@@ -29,7 +29,7 @@ jobs:
         id: generate-apps-list
         run: |
           new_content="${{ steps.about.outputs.content }}"
-          new_content+="\n\n| App Name | Image | Tag | Description |"
+          new_content+="| App Name | Image | Tag | Description |"
       
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
@@ -58,3 +58,4 @@ jobs:
           git push --set-upstream origin ${{ github.ref }}
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
