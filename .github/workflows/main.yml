@@ -39,7 +39,7 @@ jobs:
               app_tag=$(echo "$app_data" | jq -r .tag)
       
               # Add app information with proper line breaks
-              new_content+="\n\n### $app_name\n\n**Description:** $app_description\n**Image:** $app_image:$app_tag\n\n"
+              new_content+="| $app_name | $app_image | $app_tag | $app_description |"
             fi
           done
       
