@@ -1,0 +1,6 @@
+{
+	"app": "Ghost",
+	"image": "ghost",
+	"tag": "latest",
+	"description": "Free and open-source blogging platform."
+}

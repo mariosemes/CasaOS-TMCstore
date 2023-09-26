@@ -1,0 +1,6 @@
+{
+	"app": "Nextcloud",
+	"image": "crazymax/nextcloud",
+	"tag": "latest",
+	"description": "Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud/tree/master"
+}

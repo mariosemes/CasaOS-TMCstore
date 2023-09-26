@@ -1,0 +1,6 @@
+{
+	"app": "ChatPad AI",
+	"image": "ghcr.io/deiucanta/chatpad",
+	"tag": "latest",
+	"description": "Free and open-source software that provides a user-friendly system for interacting with ChatGPT."
+}

@@ -1,0 +1,6 @@
+{
+	"app": "Changedetection.io",
+	"image": "ghcr.io/dgtlmoon/changedetection.io",
+	"tag": "dev",
+	"description": "From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers."
+}
