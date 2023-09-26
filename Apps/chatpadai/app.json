@@ -1,7 +1,7 @@
 {
 	"app": "ChatPad AI",
 	"app_url": "https://chatpad.ai/",
-	"image": "ghcr.io/deiucanta/chatpad",
+	"image": "chatpad",
 	"image_url": "https://github.com/deiucanta/chatpad/pkgs/container/chatpad",
 	"tag": "latest",
 	"description": "Free and open-source software that provides a user-friendly system for interacting with ChatGPT."
