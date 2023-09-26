@@ -47,3 +47,5 @@ jobs:
           git add README.md
           git commit -m "Update README.md with apps list"
           git push
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
