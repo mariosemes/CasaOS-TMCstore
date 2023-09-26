@@ -1,6 +1,8 @@
 {
 	"app": "Ghost",
+	"app_url": "https://ghost.org/",
 	"image": "ghost",
+	"image_url": "https://hub.docker.com/_/ghost/",
 	"tag": "latest",
 	"description": "Free and open-source blogging platform."
 }

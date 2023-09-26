@@ -1,6 +1,8 @@
 {
 	"app": "Nextcloud",
+	"app_url": "https://github.com/crazy-max/docker-nextcloud",
 	"image": "crazymax/nextcloud",
+	"image_url": "https://hub.docker.com/r/crazymax/nextcloud",
 	"tag": "latest",
 	"description": "Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud/tree/master"
 }
