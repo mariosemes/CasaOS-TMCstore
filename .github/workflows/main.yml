@@ -24,8 +24,6 @@ jobs:
       - name: Generate Apps List
         id: generate-apps-list
         run: |
-          new_content="| App Name | Image | Tag | Description |\n|---|---|---|---|"
-      
           for app_folder in Apps/*; do
             if [ -f "$app_folder/app.json" ]; then
               app_data=$(cat "$app_folder/app.json")
