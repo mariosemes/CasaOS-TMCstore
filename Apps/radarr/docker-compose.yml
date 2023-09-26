@@ -36,7 +36,7 @@ x-casaos:
     en_us: Radarr is a movie collection manager for Usenet and BitTorrent users.
   store_app_id: radarr-tmc
   title:
-    en_us: Radarr
+    en_us: Radarr v4+
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/screenshot-01.png
     - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/radarr/screenshot-02.png

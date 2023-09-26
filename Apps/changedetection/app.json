@@ -1,5 +1,5 @@
 {
-	"app": "Changedetection.io",
+	"app": "Changedetection.io + Playwright",
 	"app_url": "https://changedetection.io/",
 	"image": "ghcr.io/dgtlmoon/changedetection.io",
 	"image_url": "https://github.com/dgtlmoon/changedetection.io/pkgs/container/changedetection.io",

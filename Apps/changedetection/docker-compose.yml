@@ -68,7 +68,7 @@ x-casaos:
     en_us: From simply monitoring websites to deep inspection.
   store_app_id: changedetection-tmc
   title:
-    en_us: Changedetection.io
+    en_us: Changedetection.io + Playwright
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/changedetection/screenshot-01.png
   thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/changedetection/thumbnail.png

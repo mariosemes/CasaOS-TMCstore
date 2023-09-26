@@ -36,7 +36,7 @@ x-casaos:
     en_us: Sonarr is a popular open-source software application used for managing and automating the process of downloading, organizing, and tracking TV shows.
   store_app_id: sonarr-tmc
   title:
-    en_us: sonarr
+    en_us: Sonarr v4+
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/sonarr/screenshot-01.png
   thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/sonarr/thumbnail.png
