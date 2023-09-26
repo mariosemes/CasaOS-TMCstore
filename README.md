@@ -10,11 +10,6 @@
 ---
 
 ### Apps:
-| Changedetection.io | ghcr.io/dgtlmoon/changedetection.io | dev | From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers. |
-| ChatPad AI | ghcr.io/deiucanta/chatpad | latest | Free and open-source software that provides a user-friendly system for interacting with ChatGPT. |
-| Ghost | ghost | latest | Free and open-source blogging platform. |
-| Nextcloud | crazymax/nextcloud | latest | Nextcloud Docker image with advanced features. More info can be found here https://github.com/crazy-max/docker-nextcloud/tree/master |
-
 
 | App Name | Image | Tag | Description |
 | --- | --- | --- | --- |
