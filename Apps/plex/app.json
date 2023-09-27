@@ -1,7 +1,7 @@
 {
 	"app": "Plex",
 	"app_url": "https://www.plex.tv/",
-	"image": "plexinc/pms-docker",
+	"image": "plexinc/pms--docker",
 	"image_url": "https://github.com/plexinc",
 	"tag": "latest",
 	"description": "A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today."

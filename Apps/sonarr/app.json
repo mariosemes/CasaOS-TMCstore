@@ -3,6 +3,6 @@
 	"app_url": "https://sonarr.tv/",
 	"image": "lscr.io/linuxserver/sonarr",
 	"image_url": "https://github.com/Sonarr/Sonarr",
-	"tag": "4.0.0develop",
+	"tag": "4.0.0--develop",
 	"description": "Sonarr is a popular open-source software application used for managing and automating the process of downloading, organizing, and tracking TV shows."
 }
