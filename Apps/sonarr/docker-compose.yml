@@ -9,7 +9,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/sonarr-tmc/config
+        source: /DATA/AppData/TMC-Store/sonarr/config
         target: /config
       - type: bind
         source: /DATA/Media

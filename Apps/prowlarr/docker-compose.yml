@@ -9,7 +9,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/prowlarr-tmc/config
+        source: /DATA/AppData/TMC-Store/prowlarr/config
         target: /config
     restart: unless-stopped
     privileged: false

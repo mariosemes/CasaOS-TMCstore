@@ -9,7 +9,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/bazarr-tmc/config
+        source: /DATA/AppData/TMC-Store/bazarr/config
         target: /config
       - type: bind
         source: /DATA/Media

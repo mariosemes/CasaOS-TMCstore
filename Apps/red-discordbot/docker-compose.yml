@@ -1,0 +1,41 @@
+name: red-discorbot-tmc
+services:
+  app:
+    container_name: red-discorbot
+    image: phasecorex/red-discordbot:full
+    environment:
+      - PREFIX=.
+      - PUID=1000
+      - PGID=1000
+      - TOKEN=<your-discord-token>
+      - TZ=$TZ
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/Red-DiscordBot/data
+        target: /data
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: red-discorbot
+  category: TMCstore
+  description:
+    en_us: Red is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it completely customizable. This is a self-hosted bot – meaning you will need to host and maintain your own instance. You can turn Red into an admin bot, music bot, trivia bot, new best friend or all of these together!
+  developer: red-discorbot
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/red-discorbot/icon.png
+  index: /
+  main: app
+  port_map: ""
+  scheme: http
+  tagline:
+    en_us: Red is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it completely customizable.
+  store_app_id: red-discorbot-tmc
+  title:
+    en_us: Red Discord Bot
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/red-discorbot/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/red-discorbot/thumbnail.png

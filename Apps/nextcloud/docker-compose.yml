@@ -11,7 +11,7 @@ services:
     restart: always
     volumes:
       - type: bind
-        source: /DATA/AppData/Nextcloud/mysql
+        source: /DATA/AppData/TMC-Store/nextcloud/mysql
         target: /var/lib/mysql
     networks:
       - nextcloud
@@ -86,10 +86,10 @@ services:
     restart: always
     volumes:
       - type: bind
-        source: /DATA/AppData/nextcloud/config
+        source: /DATA/AppData/TMC-Store/nextcloud/config
         target: /config
       - type: bind
-        source: /DATA/AppData/Nextcloud/data
+        source: /DATA/AppData/TMC-Store/nextcloud/data
         target: /data
     networks:
       - nextcloud
@@ -141,7 +141,7 @@ services:
     restart: always
     volumes:
       - type: bind
-        source: /DATA/AppData/Nextcloud/mysql
+        source: /DATA/AppData/TMC-Store/nextcloud/mysql
         target: /var/lib/mysql
     networks:
       - nextcloud
@@ -170,7 +170,7 @@ services:
     restart: always
     volumes:
       - type: bind
-        source: /DATA/AppData/Nextcloud/mysql
+        source: /DATA/AppData/TMC-Store/nextcloud/mysql
         target: /var/lib/mysql
     networks:
       - nextcloud
