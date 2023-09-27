@@ -38,7 +38,7 @@ jobs:
               app_image_url=$(echo "$app_data" | jq -r .image_url)
               app_tag=$(echo "$app_data" | jq -r .tag)
 
-              app_list+="| <h2><img src="$app_folder/icon.png" width="21" height="21"> [$app_name]($app_name_url)</h2> [![tag](https://img.shields.io/badge/$app_image-$app_tag-blue?style=plastic)]($app_image_url) <br /> $app_description | ![thumbnail]($app_folder/thumbnail.png) |\n"
+              app_list+="| <h2><img src="$app_folder/icon.png" width="21" height="21"> $app_name</h2> [![tag](https://img.shields.io/badge/$app_image-$app_tag-blue?style=plastic)]($app_image_url) [![tag](https://img.shields.io/badge/visit-project-green?style=plastic)]($app_name_url) <br /> $app_description | ![thumbnail]($app_folder/thumbnail.png) |\n"
             fi
           done
 
