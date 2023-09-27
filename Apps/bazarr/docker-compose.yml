@@ -1,0 +1,42 @@
+name: bazarr-tmc
+services:
+  app:
+    container_name: bazarr
+    image: lscr.io/linuxserver/bazarr:latest
+    ports:
+      - target: 6767
+        published: "6767"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/bazarr-tmc/config
+        target: /config
+      - type: bind
+        source: /DATA/Media
+        target: /media
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: bazarr
+  category: TMCstore
+  description:
+    en_us: Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
+  developer: bazarr
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/bazarr/icon.png
+  index: /
+  main: app
+  port_map: "6767"
+  scheme: http
+  tagline:
+    en_us: Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
+  store_app_id: bazarr-tmc
+  title:
+    en_us: Bazarr
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/bazarr/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/bazarr/thumbnail.png

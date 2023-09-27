@@ -1,0 +1,8 @@
+{
+	"app": "Plex + Audnexus Mod",
+	"app_url": "https://www.plex.tv/",
+	"image": "lscr.io/linuxserver/plex",
+	"image_url": "https://github.com/djdembeck/Audnexus.bundle",
+	"tag": "latest",
+	"description": "Plex + An audnex.us client, providing rich author and audiobook data to Plex via its legacy plugin agent system."
+}

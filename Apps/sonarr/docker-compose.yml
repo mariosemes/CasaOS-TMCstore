@@ -12,7 +12,7 @@ services:
         source: /DATA/AppData/sonarr-tmc/config
         target: /config
       - type: bind
-        source: /DATA/AppData/sonarr-tmc/media
+        source: /DATA/Media
         target: /media
     restart: unless-stopped
     privileged: false

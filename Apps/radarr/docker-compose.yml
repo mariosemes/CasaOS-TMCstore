@@ -12,7 +12,7 @@ services:
         source: /DATA/AppData/radarr-tmc/config
         target: /config
       - type: bind
-        source: /DATA/AppData/radarr-tmc/media
+        source: /DATA/Media
         target: /media
     restart: unless-stopped
     privileged: false

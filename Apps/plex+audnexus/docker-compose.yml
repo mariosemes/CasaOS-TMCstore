@@ -1,0 +1,49 @@
+name: plex-absolutehama-tmc
+services:
+  app:
+    container_name: plex
+    image: lscr.io/linuxserver/plex:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - PLEX_CLAIM=<REPLACE WITH code from https://www.plex.tv/claim/>
+      - TZ=$TZ
+      - VERSION=docker
+      - DOCKER_MODS=linuxserver/mods:plex-absolute-hama
+    volumes:
+      - type: bind
+        source: /DATA/AppData/plex-tmc/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/plex-tmc/transcode
+        target: /transcode
+      - type: bind
+        source: /DATA/Media
+        target: /media
+    restart: unless-stopped
+    network_mode: host
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: plex
+  category: TMCstore
+  description:
+    en_us: Plex + Absolute Series Scanner and Hama Mod
+  developer: plex
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/plex/icon.png
+  index: /web
+  main: app
+  port_map: "32400"
+  scheme: http
+  tagline:
+    en_us: Plex + Absolute Series Scanner and Hama Mod
+  store_app_id: plex-absolutehama-tmc
+  title:
+    en_us: Plex + Absolute Hama Mod
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/plex/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/plex/thumbnail.png

@@ -1,0 +1,45 @@
+name: plex-tmc
+services:
+  app:
+    container_name: plex
+    image: plexinc/pms-docker
+    environment:
+      - PLEX_CLAIM=<REPLACE WITH code from https://www.plex.tv/claim/>
+      - TZ=$TZ
+    volumes:
+      - type: bind
+        source: /DATA/AppData/plex-tmc/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/plex-tmc/transcode
+        target: /transcode
+      - type: bind
+        source: /DATA/Media
+        target: /media
+    restart: unless-stopped
+    network_mode: host
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: plex
+  category: TMCstore
+  description:
+    en_us: A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today. Available on almost any device, Plex is the first-and-only streaming platform to offer free ad-supported movies, shows, and live TV together with the ability to easily search—and add to your Watchlist—any title ever made, no matter which streaming service it lives on. Using the platform as their entertainment concierge, 17 million (and growing!) monthly active users count on Plex for new discoveries and recommendations from all their favorite streaming apps, personal media libraries, and beyond.
+  developer: plex
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/plex/icon.png
+  index: /web
+  main: app
+  port_map: "32400"
+  scheme: http
+  tagline:
+    en_us: A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
+  store_app_id: plex-tmc
+  title:
+    en_us: Plex
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/plex/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/plex/thumbnail.png

@@ -1,0 +1,8 @@
+{
+	"app": "Plex + Absolute Hama Mod",
+	"app_url": "https://www.plex.tv/",
+	"image": "lscr.io/linuxserver/plex",
+	"image_url": "https://github.com/ZeroQI/Absolute-Series-Scanner",
+	"tag": "latest",
+	"description": "Plex + Absolute Series Scanner and Hama Mod"
+}

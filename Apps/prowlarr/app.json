@@ -1,0 +1,8 @@
+{
+	"app": "Prowlarr",
+	"app_url": "https://prowlarr.com/",
+	"image": "lscr.io/linuxserver/prowlarr",
+	"image_url": "https://github.com/Prowlarr/Prowlarr",
+	"tag": "latest",
+	"description": "Sonarr is a popular open-source software application used for managing and automating the process of downloading, organizing, and tracking TV shows."
+}
