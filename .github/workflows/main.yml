@@ -1,9 +1,11 @@
 name: Generate Apps List
 
 on:
-  push:
-    branches:
-      - main
+  #push:
+    #branches:
+      #- main
+  schedule:
+    - cron: '0 1 * * *' #UTC
 
 jobs:
   generate-apps-list:
