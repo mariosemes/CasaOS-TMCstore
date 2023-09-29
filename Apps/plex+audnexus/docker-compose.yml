@@ -39,6 +39,9 @@ x-casaos:
   main: app
   port_map: "32400"
   scheme: http
+  tips:
+    custom: |
+      Instractions and installation available here: https://github.com/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus
   tagline:
     en_us: Plex + Absolute Series Scanner and Hama Mod
   store_app_id: plex-absolutehama-tmc
