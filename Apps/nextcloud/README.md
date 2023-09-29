@@ -1,48 +1,44 @@
-# After installation
+# After Installation
 
-## Creating an Admin Account with database connection
+Once you have completed the installation, follow these steps to set up an admin account with a database connection:
 
-`1. Enter your Username & Password of your choice`
+1. Enter your desired Username and Password.
+2. Choose your preferred Storage and Database option.
+3. Select MySQL/MariaDB.
+4. Fill in the required fields as follows:
 
-`2. Select Storage & Database`
+| Input fields       | Values         |
+| ------------------ | -------------- |
+| Database user      | nextcloud      |
+| Database password  | nextcloud      |
+| Database name      | nextcloud      |
+| Database host      | nextcloud-db   |
 
-`3. Select MySQL/MariaDB`
-
-`4. Input this into req. fields`
-   
-| Input fields             |Values                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Database user: | **nextcloud** |
-| Database password: | **nextcloud** |
-| Database name: | **nextcloud** |
-| Database host: | **nextcloud-db** |
-
-`5. Press **INSTALL**`
+5. Click on the **INSTALL** button to proceed.
 
 ---
 
-## Enabling cronjob as the Background service
+## Enabling the Background Service (cronjob)
 
-`1. Go to Administration settings`
+To enable the cronjob as the background service, follow these steps:
 
-`2. On the left, go to Basic settings`
-
-`3. Under Background jobs, select Cron (Recommended)`
+1. Go to the Administration settings.
+2. From the left-hand menu, select Basic settings.
+3. Under Background jobs, choose Cron (Recommended).
 
 ---
 
-## Redis cache
-Redis is recommended, alongside APCu to make Nextcloud faster. If you want to enable Redis, open CasaOS Files manager and go:
+## Redis Cache
+
+To maximize the speed of Nextcloud, it is recommended to use Redis in conjunction with APCu. If you wish to enable Redis, navigate to the CasaOS Files manager following this path:
 
 `/DATA/AppData/Nextcloud/data/config`
 
-Now open and edit **config.php**
-
-Find the link:
+Open and edit the **config.php** file. Locate the following line:
 
 `'memcache.local' => '\OC\Memcache\APCu',`
 
-and replace it with this:
+Replace it with the following code:
 
 ```
     'memcache.local' => '\OC\Memcache\APCu',
@@ -56,4 +52,4 @@ and replace it with this:
 
 ---
 
-### For more info and tuning, visit https://github.com/crazy-max/docker-nextcloud/tree/master
+For additional information and advanced tuning options, visit the [GitHub repository](https://github.com/crazy-max/docker-nextcloud/tree/master).
