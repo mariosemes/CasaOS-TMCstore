@@ -11,7 +11,7 @@ services:
       - TZ=$TZ
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/Red-DiscordBot/data
+        source: /DATA/AppData/TMC-Store/$AppID/data
         target: /data
     restart: unless-stopped
     privileged: false

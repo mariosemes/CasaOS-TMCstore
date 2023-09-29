@@ -9,7 +9,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/radarr/config
+        source: /DATA/AppData/TMC-Store/$AppID/config
         target: /config
       - type: bind
         source: /DATA/Media

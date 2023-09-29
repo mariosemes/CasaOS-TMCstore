@@ -12,10 +12,10 @@ services:
       - DOCKER_MODS=linuxserver/mods:plex-audnexus
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/plex/config
+        source: /DATA/AppData/TMC-Store/$AppID/config
         target: /config
       - type: bind
-        source: /DATA/AppData/TMC-Store/plex/transcode
+        source: /DATA/AppData/TMC-Store/$AppID/transcode
         target: /transcode
       - type: bind
         source: /DATA/Media

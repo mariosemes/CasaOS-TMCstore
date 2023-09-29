@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/ghost/mysql
+        source: /DATA/AppData/TMC-Store/$AppID/mysql
         target: /var/lib/mysql
     networks:
       - ghost
@@ -36,7 +36,7 @@ services:
     restart: unless-stopped
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/ghost/content
+        source: /DATA/AppData/TMC-Store/$AppID/content
         target: /var/lib/ghost/content
     networks:
       - ghost

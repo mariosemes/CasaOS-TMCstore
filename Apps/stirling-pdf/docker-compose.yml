@@ -11,10 +11,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/stirling-pdf/training-data
+        source: /DATA/AppData/TMC-Store/$AppID/training-data
         target: /usr/share/tesseract-ocr/4.00/tessdata
       - type: bind
-        source: /DATA/AppData/TMC-Store/stirling-pdf/configs
+        source: /DATA/AppData/TMC-Store/$AppID/configs
         target: /configs
     restart: unless-stopped
     privileged: false

@@ -35,7 +35,7 @@ services:
     restart: unless-stopped
     volumes:
       - type: bind
-        source: /DATA/AppData/TMC-Store/changedetection/data
+        source: /DATA/AppData/TMC-Store/$AppID/data
         target: /datastore
     depends_on:
       - browserless-chrome
