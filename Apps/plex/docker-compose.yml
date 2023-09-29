@@ -35,6 +35,9 @@ x-casaos:
   main: app
   port_map: "32400"
   scheme: http
+  tips:
+    custom: |
+      Instractions and installation available here: https://github.com/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex
   tagline:
     en_us: A one-stop destination to stream movies, TV shows, and music, Plex is the most comprehensive entertainment platform available today.
   store_app_id: plex-tmc
