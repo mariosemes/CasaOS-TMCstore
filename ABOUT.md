@@ -17,23 +17,23 @@
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IceWhaleTech/CasaOS)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Gx4BCEtHjx)
 
----
+<br />
+
 ## ⚠️ Warning!
 
 Please be aware that this Appstore is exclusively supported on CasaOS version 0.4.4 and above. If you are currently using an older version, you will need to upgrade to access this functionality. To upgrade your CasaOS version, please [click here](https://wiki.casaos.io/en/guides) for detailed instructions.
 
----
+<br />
 
 ## ⬇️ Download URL:
 
     https://github.com/mariosemes/CasaOS-TMCstore/archive/refs/heads/main.zip
- 
----
+
+<br />
 
 ## 🔥 How to install:
 ![thumbnail](Assets/how-to-install.gif)
-
----
+<br />
 
 ## 📱 Apps:
 
