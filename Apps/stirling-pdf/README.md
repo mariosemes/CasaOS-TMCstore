@@ -10,7 +10,7 @@ proxy_read_timeout 3600;
 Go to `Edit domain > Advanced` and under `Custom Nginx Configuration` add those two lines.
 
 
-# Login / Security
+# Login Authentication / Security
 
 This app comes by default with the `DOCKER_ENABLE_SECURITY=true` environment variable.
 To enable Login, you should edit the settings file which can be found here:
