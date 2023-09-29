@@ -18,6 +18,11 @@
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Gx4BCEtHjx)
 
 ---
+## ⚠️ Warning!
+
+Please be aware that this Appstore is exclusively supported on CasaOS version 0.4.4 and above. If you are currently using an older version, you will need to upgrade to access this functionality. To upgrade your CasaOS version, please [click here](https://wiki.casaos.io/en/guides) for detailed instructions.
+
+---
 
 ## ⬇️ Download URL:
 
