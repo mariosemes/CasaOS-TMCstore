@@ -40,6 +40,9 @@ x-casaos:
   port_map: "32400"
   scheme: http
   tips:
+    before_install:
+      en_us: |
+          Instractions and installation available here: https://github.com/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute
     custom: |
       Instractions and installation available here: https://github.com/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute
   tagline:
