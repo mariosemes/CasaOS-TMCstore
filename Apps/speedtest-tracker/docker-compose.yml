@@ -1,0 +1,76 @@
+name: speedtest-tracker-tmc
+services:
+  db:
+    image: mariadb:10
+    restart: always
+    environment:
+        - MARIADB_DATABASE=speedtest_tracker
+        - MARIADB_USER=speedy
+        - MARIADB_PASSWORD=speedy
+        - MARIADB_RANDOM_ROOT_PASSWORD=true
+    volumes:
+        - /DATA/AppData/TMC-Store/$AppID/mysql:/var/lib/mysql
+    networks:
+      - speedtest-tracker
+
+  app:
+    container_name: speedtest-tracker
+    image: ghcr.io/alexjustesen/speedtest-tracker:latest
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=speedtest_tracker
+      - DB_USERNAME=speedy
+      - DB_PASSWORD=speedy
+      - TZ=$TZ
+    depends_on:
+      - db
+    ports:
+      - target: 80
+        published: ${WEBUI_PORT:-80}
+        protocol: tcp
+      - target: 443
+        published: ${WEBUI_PORT:-443}
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/etc/ssl/web
+        target: /etc/ssl/web
+    restart: unless-stopped
+    networks:
+      - speedtest-tracker
+    privileged: false
+
+networks:
+  speedtest-tracker:
+    name: speedtest-tracker
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: speedtest-tracker
+  category: TMCstore
+  description:
+    en_us: Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+  developer: alexjustesen
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/speedtest-tracker/icon.png
+  index: /
+  main: app
+  port_map: ${WEBUI_PORT:-80}
+  scheme: http
+  tagline:
+    en_us: Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+  store_app_id: speedtest-tracker-tmc
+  title:
+    en_us: Speedtest Tracker
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/speedtest-tracker/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/speedtest-tracker/thumbnail.png

@@ -1,0 +1,8 @@
+{
+	"app": "Speedtest Tracker",
+	"app_url": "https://docs.speedtest-tracker.dev/",
+	"image": "ghcr.io/alexjustesen/speedtest--tracker",
+	"image_url": "https://github.com/alexjustesen/speedtest-tracker",
+	"tag": "latest",
+	"description": "Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service."
+}
