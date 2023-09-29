@@ -5,7 +5,7 @@ services:
     image: lscr.io/linuxserver/bazarr:latest
     ports:
       - target: 6767
-        published: "6767"
+        published: ${WEBUI_PORT:-6767}
         protocol: tcp
     volumes:
       - type: bind
@@ -30,7 +30,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/bazarr/icon.png
   index: /
   main: app
-  port_map: "6767"
+  port_map: ${WEBUI_PORT:-6767}
   scheme: http
   tagline:
     en_us: Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.

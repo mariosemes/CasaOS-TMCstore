@@ -5,7 +5,7 @@ services:
     image: lscr.io/linuxserver/prowlarr:latest
     ports:
       - target: 9696
-        published: "9696"
+        published: ${WEBUI_PORT:-9696}
         protocol: tcp
     volumes:
       - type: bind
@@ -27,7 +27,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/prowlarr/icon.png
   index: /
   main: app
-  port_map: "9696"
+  port_map: ${WEBUI_PORT:-9696}
   scheme: http
   tagline:
     en_us: Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps.

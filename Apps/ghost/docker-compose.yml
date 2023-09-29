@@ -31,7 +31,7 @@ services:
     image: ghost:latest
     ports:
       - target: 2368
-        published: "2368"
+        published: ${WEBUI_PORT:-2368}
         protocol: tcp
     restart: unless-stopped
     volumes:
@@ -59,7 +59,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/ghost/icon.png
   index: /
   main: app
-  port_map: "2368"
+  port_map: ${WEBUI_PORT:-2368}
   scheme: http
   tagline:
     en_us: Free And Open-source Blogging Platform.

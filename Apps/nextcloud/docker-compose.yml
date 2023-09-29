@@ -62,9 +62,9 @@ services:
       - msmtpd
       - redis
     environment:
-      - TZ=Europe/Paris
-      - PGID=1000
-      - PUID=1000
+      - TZ=$TZ
+      - PGID=$PGID
+      - PUID=$PUID
       - APC_SHM_SIZE=128M
       - DB_HOST=nextcloud-db
       - DB_NAME=nextcloud
@@ -81,7 +81,7 @@ services:
       - UPLOAD_MAX_SIZE=512M
     ports:
       - target: 8000
-        published: "8337"
+        published: ${WEBUI_PORT:-8000}
         protocol: tcp
     restart: always
     volumes:
@@ -195,7 +195,7 @@ x-casaos:
     en_us: The productivity platform that keeps you in control.
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/nextcloud/icon.png
   index: /
-  port_map: "8337"
+  port_map: ${WEBUI_PORT:-8000}
   scheme: http
   tips:
     custom: |

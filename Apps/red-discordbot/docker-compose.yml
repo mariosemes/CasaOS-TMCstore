@@ -5,8 +5,8 @@ services:
     image: phasecorex/red-discordbot:full
     environment:
       - PREFIX=.
-      - PUID=1000
-      - PGID=1000
+      - PUID=$PUID
+      - PGID=$PGID
       - TOKEN=<your-discord-token>
       - TZ=$TZ
     volumes:

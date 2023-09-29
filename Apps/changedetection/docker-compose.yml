@@ -30,7 +30,7 @@ services:
     image: ghcr.io/dgtlmoon/changedetection.io:dev
     ports:
       - target: 5000
-        published: "5005"
+        published: ${WEBUI_PORT:-5000}
         protocol: tcp
     restart: unless-stopped
     volumes:
@@ -62,7 +62,7 @@ x-casaos:
   developer: ""
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/changedetection/icon.png
   index: /
-  port_map: "5005"
+  port_map: ${WEBUI_PORT:-5000}
   scheme: http
   tagline:
     en_us: From simply monitoring websites to deep inspection.

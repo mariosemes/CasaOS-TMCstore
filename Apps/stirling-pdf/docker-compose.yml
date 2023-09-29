@@ -7,7 +7,7 @@ services:
       - DOCKER_ENABLE_SECURITY=true
     ports:
       - target: 8080
-        published: "8008"
+        published: ${WEBUI_PORT:-8080}
         protocol: tcp
     volumes:
       - type: bind
@@ -32,7 +32,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/stirling-pdf/icon.png
   index: /
   main: app
-  port_map: "8008"
+  port_map: ${WEBUI_PORT:-8080}
   scheme: http
   tagline:
     en_us: This is a powerful locally hosted web based PDF manipulation tool using docker that allows you to perform various operations on PDF files, such as splitting merging, converting, reorganizing, adding images, rotating, compressing, and more.
