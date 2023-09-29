@@ -18,6 +18,9 @@ To enable Login, you should edit the settings file which can be found here:
 
 Change the first variable inside the Security group called `enableLogin` from `false` to `true`.
 
-Restart container and the default login is:
-username: `admin`
+**Restart container and the default login is:**
+
+username: `admin` <br />
 password: `stirling`
+
+---
