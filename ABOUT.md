@@ -11,7 +11,11 @@
 ### What is CasaOS?
 [CasaOS](https://www.casaos.io/) dances to its own tune, and it's not your run-of-the-mill operating system. Think of it as your very own home cloud maestro, choreographed within the Docker ecosystem and designed especially for your cozy abode. Its mission? Crafting the world's most effortlessly elegant, user-friendly home cloud system you've ever laid eyes on.
 <br /><br />
-**Visit [CasaOS.io](https://www.casaos.io/) or [CasaOS@Github](https://github.com/IceWhaleTech/CasaOS) to learn more and become a member** 💘
+**You can find me and many other great community members on the [official CasaOS Discord server.](https://discord.gg/Gx4BCEtHjx)**
+
+[![CasaOS.io](https://img.shields.io/badge/casaos.io-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)](https://www.casaos.io/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IceWhaleTech/CasaOS)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Gx4BCEtHjx)
 
 ---
 
