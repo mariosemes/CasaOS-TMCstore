@@ -63,6 +63,14 @@ x-casaos:
   tagline:
     en_us: Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
   store_app_id: speedtest-tracker-tmc
+  tips:
+    before_install:
+      en_us: |
+          Login information <br />
+          Username: admin@example.com | Password: password
+    en_us: |
+      Login information <br />
+      Username: admin@example.com | Password: password
   title:
     en_us: Speedtest Tracker
   screenshot_link:
