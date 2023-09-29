@@ -66,11 +66,13 @@ x-casaos:
   tips:
     before_install:
       en_us: |
-          Login information <br />
-          Username: admin@example.com | Password: password
+          **Login information:**
+          Username: `admin@example.com`
+          Password: `password`
     en_us: |
-      Login information <br />
-      Username: admin@example.com | Password: password
+      **Login information:**
+      Username: `admin@example.com`
+      Password: `password`
   title:
     en_us: Speedtest Tracker
   screenshot_link:
