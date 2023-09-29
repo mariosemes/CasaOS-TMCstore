@@ -39,6 +39,9 @@ x-casaos:
   main: app
   port_map: "32400"
   scheme: http
+  tips:
+    custom: |
+      Instractions and installation available here: https://github.com/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute
   tagline:
     en_us: Plex + An audnex.us client, providing rich author and audiobook data to Plex via its legacy plugin agent system.
   store_app_id: plex-audnexus-tmc
