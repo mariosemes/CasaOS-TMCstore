@@ -11,20 +11,29 @@
 ### What is CasaOS?
 [CasaOS](https://www.casaos.io/) dances to its own tune, and it's not your run-of-the-mill operating system. Think of it as your very own home cloud maestro, choreographed within the Docker ecosystem and designed especially for your cozy abode. Its mission? Crafting the world's most effortlessly elegant, user-friendly home cloud system you've ever laid eyes on.
 <br /><br />
-**Visit [CasaOS.io](https://www.casaos.io/) or [CasaOS@Github](https://github.com/IceWhaleTech/CasaOS) to learn more and become a member** 💘
+**You can find me and many other great community members on the [official CasaOS Discord server.](https://discord.gg/Gx4BCEtHjx)**
 
----
+[![CasaOS.io](https://img.shields.io/badge/casaos.io-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)](https://www.casaos.io/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IceWhaleTech/CasaOS)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Gx4BCEtHjx)
+
+<br />
+
+## ⚠️ Warning!
+
+Please be aware that this Appstore is exclusively supported on CasaOS version 0.4.4 and above. If you are currently using an older version, you will need to upgrade to access this functionality. To upgrade your CasaOS version, please [click here](https://wiki.casaos.io/en/guides) for detailed instructions.
+
+<br />
 
 ## ⬇️ Download URL:
 
     https://github.com/mariosemes/CasaOS-TMCstore/archive/refs/heads/main.zip
- 
----
+
+<br />
 
 ## 🔥 How to install:
 ![thumbnail](Assets/how-to-install.gif)
-
----
+<br />
 
 ## 📱 Apps:
 
@@ -42,4 +51,5 @@
 | <h2><img src=Apps/radarr/icon.png width=21 height=21> Radarr v4+</h2> [![tag](https://img.shields.io/badge/lscr.io/linuxserver/radarr-develop-blue?style=plastic)](https://github.com/Radarr/Radarr) [![tag](https://img.shields.io/badge/visit-project-green?style=plastic)](https://radarr.video/) <br /> Radarr is a movie collection manager for Usenet and BitTorrent users. | ![thumbnail](Apps/radarr/thumbnail.png) |
 | <h2><img src=Apps/red-discordbot/icon.png width=21 height=21> Red Discord Bot</h2> [![tag](https://img.shields.io/badge/phasecorex/red--discordbot-full-blue?style=plastic)](https://github.com/Cog-Creators/Red-DiscordBot) [![tag](https://img.shields.io/badge/visit-project-green?style=plastic)](https://github.com/Cog-Creators/Red-DiscordBot) <br /> Red is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it completely customizable. This is a self-hosted bot – meaning you will need to host and maintain your own instance. | ![thumbnail](Apps/red-discordbot/thumbnail.png) |
 | <h2><img src=Apps/sonarr/icon.png width=21 height=21> Sonarr v4+</h2> [![tag](https://img.shields.io/badge/lscr.io/linuxserver/sonarr-4.0.0--develop-blue?style=plastic)](https://github.com/Sonarr/Sonarr) [![tag](https://img.shields.io/badge/visit-project-green?style=plastic)](https://sonarr.tv/) <br /> Sonarr is a popular open-source software application used for managing and automating the process of downloading, organizing, and tracking TV shows. | ![thumbnail](Apps/sonarr/thumbnail.png) |
+| <h2><img src=Apps/speedtest-tracker/icon.png width=21 height=21> Speedtest Tracker</h2> [![tag](https://img.shields.io/badge/ghcr.io/alexjustesen/speedtest--tracker-latest-blue?style=plastic)](https://github.com/alexjustesen/speedtest-tracker) [![tag](https://img.shields.io/badge/visit-project-green?style=plastic)](https://docs.speedtest-tracker.dev/) <br /> Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service. | ![thumbnail](Apps/speedtest-tracker/thumbnail.png) |
 | <h2><img src=Apps/stirling-pdf/icon.png width=21 height=21> Stirling-PDF</h2> [![tag](https://img.shields.io/badge/frooodle/s--pdf-latest-blue?style=plastic)](https://github.com/Frooodle/Stirling-PDF) [![tag](https://img.shields.io/badge/visit-project-green?style=plastic)](https://sonarr.tv/) <br /> This is a powerful locally hosted web based PDF manipulation tool using docker that allows you to perform various operations on PDF files, such as splitting merging, converting, reorganizing, adding images, rotating, compressing, and more. | ![thumbnail](Apps/stirling-pdf/thumbnail.png) |
