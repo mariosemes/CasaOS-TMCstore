@@ -49,6 +49,29 @@ Replace it with the following code:
         'port' => 6379,
     ),
 ```
+---
+
+## "Access trough untrusted domain" error
+
+In case you get the "Access trough untrusted domain" error, you should add this to your config.php file:
+```
+    'trusted_domains' => 
+      array (
+        0 => '<reaplce-with-server-ip-address:port>',
+        1 => '<your.domain.com>',
+        2 => '<delete.this.if.you.dont.have.more.domains>',
+      ),
+```
+
+**Reminder: To trusted_domains add all domains and addresses you woukld like to use to access to your Nextcloud instance. DO NOT USE http or https or any forwardslashes in this naming, only clean domain names.**
+
+---
+
+## Nextcloud does not redirect to dashboard after login
+
+In case you have to reload the page after login to ge to the dashboard, just add this to your config.php file:
+
+```'overwriteprotocol' => 'https',```
 
 ---
 
