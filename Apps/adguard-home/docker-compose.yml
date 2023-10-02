@@ -1,0 +1,47 @@
+name: adguard-home-tmc
+services:
+  app:
+    container_name: adguard
+    image: adguard/adguardhome:latest
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    ports:
+      - target: 3000
+        published: ${WEBUI_PORT:-3000}
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/work
+        target: /opt/adguardhome/work
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/conf
+        target: /opt/adguardhome/conf
+    restart: unless-stopped
+    network_mode: host
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: adguard
+  category: TMCstore
+  description:
+    en_us: AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
+  developer: adguard
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/icon.png
+  index: /
+  main: app
+  port_map: ${WEBUI_PORT:-3000}
+  scheme: http
+  tagline:
+    en_us: AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
+  store_app_id: adguard-tmc
+  title:
+    en_us: AdGuard Home
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/thumbnail.png

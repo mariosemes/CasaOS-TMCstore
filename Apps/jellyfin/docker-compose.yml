@@ -1,0 +1,49 @@
+name: jellyfin-tmc
+services:
+  app:
+    container_name: jellyfin
+    image: jellyfin/jellyfin
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    ports:
+      - target: 8096
+        published: ${WEBUI_PORT:-8096}
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/cache
+        target: /cache
+      - type: bind
+        source: /DATA/Media
+        target: /media
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: jellyfin
+  category: TMCstore
+  description:
+    en_us: Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
+  developer: Jellyfin
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/jellyfin/icon.png
+  index: /
+  main: app
+  port_map: ${WEBUI_PORT:-8096}
+  scheme: http
+  tagline:
+    en_us: Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
+  store_app_id: jellyfin-tmc
+  title:
+    en_us: Jellyfin
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/jellyfin/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/jellyfin/thumbnail.png

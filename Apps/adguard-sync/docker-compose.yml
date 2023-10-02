@@ -1,0 +1,47 @@
+name: adguard-sync-tmc
+services:
+  app:
+    container_name: adguard
+    image: linuxserver/adguardhome-sync:latest
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - ORIGIN_URL=# http://10.10.10.10:8080 your main adguard instance for synchronization
+      - ORIGIN_USERNAME=admin1
+      - ORIGIN_PASSWORD=password1
+      - REPLICA_URL=# http://20.20.20.20:8080 your replica adguard instance to be synced with main instance
+      - REPLICA_USERNAME=admin2
+      - REPLICA_PASSWORD=password2
+      - CRON=*/30 * * * * # run every 30 minute; see https://crontab.guru/
+      - RUNONSTART=true
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/config
+        target: /config
+    restart: unless-stopped
+    network_mode: host
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: bakito
+  category: TMCstore
+  description:
+    en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
+  developer: bakito
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/icon.png
+  index: /
+  main: app
+  scheme: http
+  tagline:
+    en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
+  store_app_id: adguard-tmc
+  title:
+    en_us: AdGuard Sync
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/thumbnail.png
