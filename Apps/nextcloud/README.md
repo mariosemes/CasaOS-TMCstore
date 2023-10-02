@@ -32,7 +32,7 @@ To enable the cronjob as the background service, follow these steps:
 
 To maximize the speed of Nextcloud, it is recommended to use Redis in conjunction with APCu. If you wish to enable Redis, navigate to the CasaOS Files manager following this path:
 
-`/DATA/AppData/Nextcloud/data/config`
+`/DATA/AppData/TMC-Store/Nextcloud/data/config`
 
 Open and edit the **config.php** file. Locate the following line:
 
