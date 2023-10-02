@@ -53,7 +53,8 @@ Replace it with the following code:
 
 ## "Access trough untrusted domain" error
 
-In case you get the "Access trough untrusted domain" error, you should add this to your config.php file:
+In case you get the "Access trough untrusted domain" error, you should edit/add this to your `config.php` file:
+
 ```
     'trusted_domains' => 
       array (
@@ -63,7 +64,7 @@ In case you get the "Access trough untrusted domain" error, you should add this 
       ),
 ```
 
-**Reminder: To trusted_domains add all domains and addresses you woukld like to use to access to your Nextcloud instance. DO NOT USE http or https or any forwardslashes in this naming, only clean domain names.**
+**Friendly Reminder:** When adding domains and addresses to the trusted_domains configuration in your Nextcloud instance, make sure to include all the domains and addresses from which you would like to access Nextcloud. It is important to note that you should only use clean domain names without including 'http', 'https', or any forward slashes in the naming. Keep the entries simple and straightforward.
 
 ---
 
