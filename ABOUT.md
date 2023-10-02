@@ -33,6 +33,7 @@ Please be aware that this Appstore is exclusively supported on CasaOS version 0.
 
 ## 🔥 How to install:
 ![thumbnail](Assets/how-to-install.gif)
+
 <br />
 
 ## 📱 Apps:
