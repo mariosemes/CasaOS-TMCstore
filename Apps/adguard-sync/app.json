@@ -1,7 +1,7 @@
 {
 	"app": "AdGuard Sync",
 	"app_url": "https://hub.docker.com/r/linuxserver/adguardhome-sync",
-	"image": "linuxserver/adguardhome-sync",
+	"image": "linuxserver/adguardhome--sync",
 	"image_url": "https://github.com/bakito/adguardhome-sync/",
 	"tag": "latest",
 	"description": "Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances."
