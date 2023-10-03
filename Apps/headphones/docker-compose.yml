@@ -1,0 +1,42 @@
+name: headphones-tmc
+services:
+  app:
+    container_name: headphones
+    image: lscr.io/linuxserver/headphones:latest
+    ports:
+      - target: 8181
+        published: ${WEBUI_PORT:-8181}
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/Media
+        target: /media
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: headphones
+  category: TMCstore
+  description:
+    en_us: Headphones is an automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+  developer: headphones
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/headphones/icon.png
+  index: /
+  main: app
+  port_map: ${WEBUI_PORT:-8181}
+  scheme: http
+  tagline:
+    en_us: Headphones is an automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+  store_app_id: headphones-tmc
+  title:
+    en_us: Headphones
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/headphones/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/lidarr/thumbnail.png

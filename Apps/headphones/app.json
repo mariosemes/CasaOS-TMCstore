@@ -1,0 +1,8 @@
+{
+	"app": "Headphones",
+	"app_url": "https://lidarr.audio/",
+	"image": "lscr.io/linuxserver/headphones",
+	"image_url": "https://github.com/rembo10/headphones",
+	"tag": "latest",
+	"description": "Headphones is an automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole."
+}
