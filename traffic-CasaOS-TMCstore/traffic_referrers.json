@@ -1,7 +1,12 @@
 [
   {
     "referrer": "github.com",
-    "count": 15,
-    "uniques": 5
+    "count": 23,
+    "uniques": 8
+  },
+  {
+    "referrer": "awesome.casaos.io",
+    "count": 1,
+    "uniques": 1
   }
 ]
