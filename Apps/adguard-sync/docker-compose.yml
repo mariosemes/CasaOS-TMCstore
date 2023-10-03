@@ -33,7 +33,7 @@ x-casaos:
   description:
     en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
   developer: bakito
-  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/icon.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard-sync/icon.png
   index: /
   main: app
   scheme: http
@@ -43,5 +43,5 @@ x-casaos:
   title:
     en_us: AdGuard Sync
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/screenshot-01.png
-  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard-sync/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard-sync/thumbnail.png

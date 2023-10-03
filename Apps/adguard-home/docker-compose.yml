@@ -32,7 +32,7 @@ x-casaos:
   description:
     en_us: AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. 
   developer: adguard
-  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/icon.png
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard-home/icon.png
   index: /
   main: app
   port_map: ${WEBUI_PORT:-3000}
@@ -43,5 +43,5 @@ x-casaos:
   title:
     en_us: AdGuard Home
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/screenshot-01.png
-  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard-home/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/adguard-home/thumbnail.png
