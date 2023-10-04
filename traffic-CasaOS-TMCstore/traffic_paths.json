@@ -2,26 +2,44 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore",
-    "count": 66,
-    "uniques": 51
+    "count": 81,
+    "uniques": 63
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 26,
-    "uniques": 11
+    "count": 33,
+    "uniques": 14
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
+    "count": 29,
+    "uniques": 9
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 9,
-    "uniques": 4
+    "count": 13,
+    "uniques": 6
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
-    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore",
-    "count": 7,
-    "uniques": 2
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 11,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "count": 8,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
+    "title": "GitHub - mariosemes/CasaOS-TMCstore: It's important to note that this App Sto...",
+    "count": 6,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/traffic",
@@ -30,33 +48,15 @@
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
     "count": 6,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 5,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 4,
-    "uniques": 2
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
-    "count": 4,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/radarr/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/radarr/thumbnail.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 4,
-    "uniques": 2
+    "count": 6,
+    "uniques": 3
   }
 ]
