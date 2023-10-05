@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore",
-    "count": 81,
-    "uniques": 63
+    "count": 100,
+    "uniques": 78
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -14,7 +14,7 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
     "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 29,
+    "count": 31,
     "uniques": 9
   },
   {
@@ -32,14 +32,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
-    "count": 8,
-    "uniques": 4
+    "count": 10,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main",
     "title": "GitHub - mariosemes/CasaOS-TMCstore: It's important to note that this App Sto...",
-    "count": 6,
+    "count": 7,
     "uniques": 5
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 7,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/traffic",
@@ -50,12 +56,6 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
     "count": 6,
     "uniques": 3
   }
