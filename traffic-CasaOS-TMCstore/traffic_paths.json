@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore",
-    "count": 100,
-    "uniques": 78
+    "count": 111,
+    "uniques": 85
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 33,
-    "uniques": 14
+    "count": 39,
+    "uniques": 17
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
     "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 31,
-    "uniques": 9
+    "count": 35,
+    "uniques": 11
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
@@ -30,33 +30,33 @@
     "uniques": 4
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
+    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
+    "count": 10,
+    "uniques": 7
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 10,
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
-    "title": "GitHub - mariosemes/CasaOS-TMCstore: It's important to note that this App Sto...",
-    "count": 7,
-    "uniques": 5
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 10,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 8,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
     "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 7,
     "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/traffic",
-    "title": "mariosemes/CasaOS-TMCstore at traffic",
-    "count": 6,
-    "uniques": 5
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 6,
-    "uniques": 3
   }
 ]
