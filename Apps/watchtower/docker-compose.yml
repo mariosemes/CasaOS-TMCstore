@@ -1,0 +1,43 @@
+name: watchtower-tmc
+services:
+  app:
+    container_name: watchtower
+    image: containrrr/watchtower:latest
+    environment:
+      - TZ=$TZ
+      - WATCHTOWER_LIFECYCLE_HOOKS=True
+      - WATCHTOWER_NOTIFICATIONS=shoutrrr
+      - WATCHTOWER_NOTIFICATION_URL=telegram://BOT_TOKEN@telegram/?channels=CHAT_ID
+      - WATCHTOWER_DEBUG=true
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_SCHEDULE=0 0 11 * * *
+      - WATCHTOWER_MONITOR_ONLY=false
+    volumes:
+      - type: bind
+        source: //var/run/docker.sock
+        target: /var/run/docker.sock
+    restart: unless-stopped
+    privileged: false
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: watchtower
+  category: TMCstore
+  description:
+    en_us: A container-based solution for automating Docker container base image updates.
+  developer: watchtower
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/watchtower/icon.png
+  index: /
+  main: app
+  scheme: http
+  tagline:
+    en_us: A container-based solution for automating Docker container base image updates.
+  store_app_id: watchtower-tmc
+  title:
+    en_us: Watchtower
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/watchtower/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/watchtower/thumbnail.png

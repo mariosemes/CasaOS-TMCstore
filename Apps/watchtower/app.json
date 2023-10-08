@@ -1,0 +1,8 @@
+{
+	"app": "Watchtower",
+	"app_url": "https://containrrr.dev/watchtower/",
+	"image": "containrrr/watchtower",
+	"image_url": "https://github.com/containrrr/watchtower/",
+	"tag": "latest",
+	"description": "A container-based solution for automating Docker container base image updates."
+}
