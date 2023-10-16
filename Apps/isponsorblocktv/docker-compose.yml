@@ -1,0 +1,34 @@
+name: isponsorblocktv-tmc
+services:
+  app:
+    container_name: isponsorblocktv
+    image: ghcr.io/dmunozv04/isponsorblocktv:latest
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/data
+        target: /app/data
+    restart: unless-stopped
+    privileged: false
+    network_mode: host
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  author: isponsorblocktv
+  category: TMCstore
+  description:
+    en_us: Skip sponsor segments in YouTube videos playing on a YouTube TV device.
+  developer: isponsorblocktv
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/isponsorblocktv/icon.png
+  index: /
+  main: app
+  scheme: http
+  tagline:
+    en_us: Skip sponsor segments in YouTube videos playing on a YouTube TV device.
+  store_app_id: isponsorblocktv-tmc
+  title:
+    en_us: iSponsorBlockTV
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/isponsorblocktv/screenshot-01.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/isponsorblocktv/thumbnail.png

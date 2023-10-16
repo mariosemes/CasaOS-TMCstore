@@ -1,0 +1,8 @@
+{
+	"app": "iSponsorBlockTV",
+	"app_url": "https://github.com/dmunozv04/iSponsorBlockTV",
+	"image": "ghcr.io/dmunozv04/isponsorblocktv",
+	"image_url": "https://github.com/dmunozv04/iSponsorBlockTV",
+	"tag": "latest",
+	"description": "Skip sponsor segments in YouTube videos playing on a YouTube TV device."
+}
