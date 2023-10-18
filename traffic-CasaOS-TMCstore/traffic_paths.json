@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 173,
-    "uniques": 136
+    "count": 170,
+    "uniques": 137
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 72,
-    "uniques": 23
+    "count": 66,
+    "uniques": 21
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,16 +18,16 @@
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 20,
-    "uniques": 9
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
     "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 20,
-    "uniques": 6
+    "count": 18,
+    "uniques": 5
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
+    "count": 16,
+    "uniques": 7
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -42,21 +42,21 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
-    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 7,
-    "uniques": 6
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
     "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/speedtest-tracker",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker at main · mariosemes/CasaOS-TMCstore ·...",
     "count": 6,
-    "uniques": 2
+    "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
+    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
+    "count": 4,
+    "uniques": 4
   }
 ]
