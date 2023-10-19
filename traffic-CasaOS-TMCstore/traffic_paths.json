@@ -2,19 +2,19 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 170,
-    "uniques": 137
+    "count": 158,
+    "uniques": 129
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 66,
-    "uniques": 21
+    "count": 60,
+    "uniques": 20
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 24,
+    "count": 22,
     "uniques": 5
   },
   {
@@ -24,21 +24,27 @@
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 16,
-    "uniques": 7
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 13,
+    "count": 17,
     "uniques": 6
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
-    "count": 8,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
+    "count": 14,
+    "uniques": 6
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/screenshot-01.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/screenshot-01.png at main · mariosemes/CasaOS-...",
+    "count": 6,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 6,
     "uniques": 3
   },
   {
@@ -48,15 +54,9 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/speedtest-tracker",
-    "title": "CasaOS-TMCstore/Apps/speedtest-tracker at main · mariosemes/CasaOS-TMCstore ·...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/icon.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/icon.png at main · mariosemes/CasaOS-TMCstore ...",
     "count": 6,
-    "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
-    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 4,
-    "uniques": 4
+    "uniques": 2
   }
 ]
