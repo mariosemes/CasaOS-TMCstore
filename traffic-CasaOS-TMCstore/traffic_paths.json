@@ -2,26 +2,32 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 171,
-    "uniques": 139
+    "count": 182,
+    "uniques": 138
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
-    "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 17,
-    "uniques": 7
+    "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore",
+    "count": 30,
+    "uniques": 9
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 15,
-    "uniques": 3
+    "count": 13,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore",
     "count": 10,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
+    "count": 10,
+    "uniques": 1
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
@@ -36,27 +42,21 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/screenshot-01.png",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/screenshot-01.png at main · mariosemes/CasaOS-...",
-    "count": 4,
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/ghost",
+    "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore",
+    "count": 6,
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore",
-    "count": 4,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/icon.png",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/icon.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 4,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/app.json",
+    "title": "CasaOS-TMCstore/Apps/watchtower/app.json at main · mariosemes/CasaOS-TMCstore",
+    "count": 6,
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
-    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 2,
-    "uniques": 2
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/screenshot-01.png",
+    "title": "CasaOS-TMCstore/Apps/watchtower/screenshot-01.png at main · mariosemes/CasaOS...",
+    "count": 6,
+    "uniques": 1
   }
 ]
