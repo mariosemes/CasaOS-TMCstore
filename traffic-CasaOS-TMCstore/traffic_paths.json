@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 194,
-    "uniques": 145
+    "count": 200,
+    "uniques": 147
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore",
-    "count": 43,
-    "uniques": 12
+    "count": 39,
+    "uniques": 10
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -19,9 +19,9 @@
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore",
-    "count": 10,
-    "uniques": 3
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 12,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
@@ -30,9 +30,15 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 8,
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 9,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
+    "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 7,
     "uniques": 2
   },
   {
@@ -52,11 +58,5 @@
     "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/app.json",
-    "title": "CasaOS-TMCstore/Apps/watchtower/app.json at main · mariosemes/CasaOS-TMCstore",
-    "count": 6,
-    "uniques": 1
   }
 ]
