@@ -2,13 +2,13 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 200,
-    "uniques": 147
+    "count": 214,
+    "uniques": 154
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
-    "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore",
-    "count": 39,
+    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
+    "count": 41,
     "uniques": 10
   },
   {
@@ -18,9 +18,15 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 11,
+    "uniques": 4
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 12,
+    "count": 10,
     "uniques": 4
   },
   {
@@ -30,10 +36,16 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 9,
-    "uniques": 3
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 8,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
+    "count": 8,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
@@ -46,17 +58,5 @@
     "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
     "count": 6,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/ghost",
-    "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore",
-    "count": 6,
-    "uniques": 2
   }
 ]
