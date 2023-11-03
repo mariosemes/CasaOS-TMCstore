@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 232,
-    "uniques": 163
+    "count": 238,
+    "uniques": 165
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 51,
-    "uniques": 13
+    "count": 57,
+    "uniques": 14
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -36,27 +36,27 @@
     "uniques": 4
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/category-list.json",
+    "title": "CasaOS-TMCstore/category-list.json at main · mariosemes/CasaOS-TMCstore",
+    "count": 11,
+    "uniques": 3
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
     "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 10,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 8,
-    "uniques": 2
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "count": 9,
+    "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/screenshot-01.png",
-    "title": "CasaOS-TMCstore/Apps/watchtower/screenshot-01.png at main · mariosemes/CasaOS...",
-    "count": 8,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 7,
-    "uniques": 3
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/watchtower/thumbnail.png at main · mariosemes/CasaOS-TMC...",
+    "count": 9,
+    "uniques": 4
   }
 ]
