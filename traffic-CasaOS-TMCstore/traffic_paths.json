@@ -2,32 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 163,
-    "uniques": 121
+    "count": 167,
+    "uniques": 130
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 45,
-    "uniques": 14
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
-    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 10,
-    "uniques": 4
+    "count": 43,
+    "uniques": 13
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 9,
     "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
-    "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/category-list.json",
@@ -42,21 +30,33 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/watchtower/thumbnail.png at main · mariosemes/CasaOS-TMC...",
-    "count": 7,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/jellyfin/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/jellyfin/docker-compose.yml at main · mariosemes/CasaOS-...",
     "count": 7,
     "uniques": 1
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/bazarr/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/bazarr/thumbnail.png at main · mariosemes/CasaOS-TMCstore",
+    "count": 6,
+    "uniques": 3
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 6,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 6,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-home/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/adguard-home/thumbnail.png at main · mariosemes/CasaOS-T...",
+    "count": 6,
+    "uniques": 2
   }
 ]
