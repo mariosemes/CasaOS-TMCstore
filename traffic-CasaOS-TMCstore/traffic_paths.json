@@ -2,13 +2,13 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 167,
-    "uniques": 130
+    "count": 153,
+    "uniques": 120
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 43,
+    "count": 36,
     "uniques": 13
   },
   {
@@ -22,18 +22,6 @@
     "title": "CasaOS-TMCstore/category-list.json at main · mariosemes/CasaOS-TMCstore",
     "count": 8,
     "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/jellyfin",
-    "title": "CasaOS-TMCstore/Apps/jellyfin at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/jellyfin/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/jellyfin/docker-compose.yml at main · mariosemes/CasaOS-...",
-    "count": 7,
-    "uniques": 1
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/bazarr/thumbnail.png",
@@ -57,6 +45,18 @@
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-home/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/adguard-home/thumbnail.png at main · mariosemes/CasaOS-T...",
     "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/ABOUT.md",
+    "title": "CasaOS-TMCstore/ABOUT.md at main · mariosemes/CasaOS-TMCstore",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 4,
     "uniques": 2
   }
 ]
