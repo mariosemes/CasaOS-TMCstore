@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 143,
-    "uniques": 114
+    "count": 149,
+    "uniques": 118
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -30,8 +30,26 @@
     "uniques": 2
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
+    "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
+    "count": 6,
+    "uniques": 1
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/bazarr/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/bazarr/thumbnail.png at main · mariosemes/CasaOS-TMCstore",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex+absolute/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute/thumbnail.png at main · mariosemes/CasaOS-...",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex+audnexus/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus/thumbnail.png at main · mariosemes/CasaOS-...",
     "count": 4,
     "uniques": 2
   },
@@ -40,23 +58,5 @@
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 4,
     "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
-    "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/app.json",
-    "title": "CasaOS-TMCstore/Apps/chatpadai/app.json at main · mariosemes/CasaOS-TMCstore ...",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/.github",
-    "title": "CasaOS-TMCstore/.github at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 3,
-    "uniques": 1
   }
 ]
