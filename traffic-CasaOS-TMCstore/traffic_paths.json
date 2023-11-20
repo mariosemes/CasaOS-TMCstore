@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 154,
-    "uniques": 124
+    "count": 146,
+    "uniques": 118
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 40,
-    "uniques": 12
+    "count": 47,
+    "uniques": 14
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -24,14 +24,14 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-home/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/adguard-home/thumbnail.png at main · mariosemes/CasaOS-T...",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 6,
     "uniques": 2
   },
@@ -42,6 +42,12 @@
     "uniques": 1
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 5,
+    "uniques": 2
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/bazarr/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/bazarr/thumbnail.png at main · mariosemes/CasaOS-TMCstore",
     "count": 4,
@@ -50,12 +56,6 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 4,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
     "count": 4,
     "uniques": 2
   }
