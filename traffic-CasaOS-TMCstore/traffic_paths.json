@@ -2,31 +2,25 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 156,
-    "uniques": 129
+    "count": 144,
+    "uniques": 121
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 51,
-    "uniques": 15
+    "count": 47,
+    "uniques": 14
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 13,
-    "uniques": 4
+    "count": 15,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 13,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/adguard-home",
-    "title": "CasaOS-TMCstore/Apps/adguard-home at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
     "uniques": 3
   },
   {
@@ -36,16 +30,16 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/adguard-home",
+    "title": "CasaOS-TMCstore/Apps/adguard-home at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 6,
+    "uniques": 2
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
     "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-home/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/adguard-home/docker-compose.yml at main · mariosemes/Cas...",
-    "count": 4,
-    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
@@ -56,6 +50,12 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
     "count": 4,
     "uniques": 2
   }
