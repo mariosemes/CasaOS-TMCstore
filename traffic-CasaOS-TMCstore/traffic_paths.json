@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 130,
-    "uniques": 108
+    "count": 137,
+    "uniques": 114
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 34,
-    "uniques": 11
+    "count": 42,
+    "uniques": 14
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,26 +18,20 @@
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 13,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
     "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
     "count": 10,
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 6,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 6,
     "uniques": 3
   },
@@ -48,8 +42,8 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
     "count": 4,
     "uniques": 2
   },
@@ -58,5 +52,11 @@
     "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
     "count": 4,
     "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/plex/docker-compose.yml at main · mariosemes/CasaOS-TMCs...",
+    "count": 4,
+    "uniques": 1
   }
 ]
