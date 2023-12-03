@@ -2,19 +2,19 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 150,
-    "uniques": 119
+    "count": 145,
+    "uniques": 113
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 35,
-    "uniques": 12
+    "count": 38,
+    "uniques": 13
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 22,
+    "count": 16,
     "uniques": 6
   },
   {
@@ -48,15 +48,15 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/plex/docker-compose.yml at main · mariosemes/CasaOS-TMCs...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 4,
-    "uniques": 1
+    "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/sonarr",
-    "title": "CasaOS-TMCstore/Apps/sonarr at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 3,
-    "uniques": 1
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 4,
+    "uniques": 2
   }
 ]
