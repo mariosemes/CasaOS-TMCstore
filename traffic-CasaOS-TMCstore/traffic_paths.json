@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 139,
-    "uniques": 108
+    "count": 152,
+    "uniques": 111
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 41,
-    "uniques": 17
+    "count": 45,
+    "uniques": 18
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 15,
-    "uniques": 5
+    "count": 19,
+    "uniques": 6
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
@@ -36,27 +36,27 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 6,
+    "uniques": 2
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/plex/docker-compose.yml at main · mariosemes/CasaOS-TMCs...",
     "count": 6,
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/headphones/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/headphones/thumbnail.png at main · mariosemes/CasaOS-TMC...",
-    "count": 4,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/plex/thumbnail.png at main · mariosemes/CasaOS-TMCstore ...",
-    "count": 4,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 4,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/red-discordbot/thumbnail.png at main · mariosemes/CasaOS...",
+    "count": 6,
     "uniques": 2
   }
 ]
