@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 155,
-    "uniques": 114
+    "count": 154,
+    "uniques": 111
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -24,12 +24,6 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
-    "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 12,
-    "uniques": 1
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/category-list.json",
     "title": "CasaOS-TMCstore/category-list.json at main · mariosemes/CasaOS-TMCstore",
     "count": 9,
@@ -48,14 +42,20 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 6,
-    "uniques": 3
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-sync/icon.png",
+    "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
+    "count": 8,
+    "uniques": 1
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 6,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/default-icon.png",
+    "title": "CasaOS-TMCstore/Assets/default-icon.png at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 3
   }

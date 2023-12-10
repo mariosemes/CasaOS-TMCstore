@@ -1,18 +1,13 @@
 [
   {
     "referrer": "github.com",
-    "count": 91,
+    "count": 87,
     "uniques": 10
   },
   {
     "referrer": "Google",
-    "count": 16,
-    "uniques": 3
-  },
-  {
-    "referrer": "community.umbrel.com",
-    "count": 4,
-    "uniques": 1
+    "count": 18,
+    "uniques": 4
   },
   {
     "referrer": "awesome.casaos.io",
