@@ -2,7 +2,7 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 154,
+    "count": 157,
     "uniques": 111
   },
   {
@@ -20,7 +20,7 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 13,
+    "count": 15,
     "uniques": 4
   },
   {
@@ -30,10 +30,22 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 8,
+    "uniques": 4
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 8,
     "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex+audnexus/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus/thumbnail.png at main · mariosemes/CasaOS-...",
+    "count": 8,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/ABOUT.md",
@@ -46,17 +58,5 @@
     "title": "CasaOS-TMCstore/Apps/adguard-sync/icon.png at main · mariosemes/CasaOS-TMCstore",
     "count": 8,
     "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/default-icon.png",
-    "title": "CasaOS-TMCstore/Assets/default-icon.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 6,
-    "uniques": 3
   }
 ]
