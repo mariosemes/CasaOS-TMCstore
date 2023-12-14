@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 166,
-    "uniques": 113
+    "count": 162,
+    "uniques": 112
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -15,25 +15,31 @@
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 21,
-    "uniques": 4
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
-    "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 20,
-    "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 10,
-    "uniques": 5
+    "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore",
+    "count": 18,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/ABOUT.md",
     "title": "CasaOS-TMCstore/ABOUT.md at main · mariosemes/CasaOS-TMCstore",
-    "count": 10,
+    "count": 15,
     "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 12,
+    "uniques": 6
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 10,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
@@ -52,11 +58,5 @@
     "title": "CasaOS-TMCstore/Apps/plex+audnexus/thumbnail.png at main · mariosemes/CasaOS-...",
     "count": 8,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/category-list.json",
-    "title": "CasaOS-TMCstore/category-list.json at main · mariosemes/CasaOS-TMCstore",
-    "count": 7,
-    "uniques": 2
   }
 ]
