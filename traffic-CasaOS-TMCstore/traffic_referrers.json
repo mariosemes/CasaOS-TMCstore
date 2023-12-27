@@ -1,23 +1,18 @@
 [
   {
-    "referrer": "github.com",
-    "count": 60,
-    "uniques": 9
+    "referrer": "Google",
+    "count": 21,
+    "uniques": 7
   },
   {
-    "referrer": "Google",
-    "count": 22,
+    "referrer": "github.com",
+    "count": 17,
     "uniques": 8
   },
   {
     "referrer": "youtube.com",
-    "count": 9,
-    "uniques": 3
-  },
-  {
-    "referrer": "awesome.casaos.io",
-    "count": 3,
-    "uniques": 1
+    "count": 8,
+    "uniques": 2
   },
   {
     "referrer": "workona.com",

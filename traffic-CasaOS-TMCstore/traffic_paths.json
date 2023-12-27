@@ -2,26 +2,32 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 170,
-    "uniques": 132
+    "count": 168,
+    "uniques": 131
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 55,
+    "count": 51,
     "uniques": 19
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 40,
+    "count": 34,
     "uniques": 6
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/ABOUT.md",
-    "title": "CasaOS-TMCstore/ABOUT.md at main · mariosemes/CasaOS-TMCstore",
-    "count": 11,
-    "uniques": 1
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "count": 10,
+    "uniques": 5
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 10,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
@@ -32,31 +38,25 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/README.md",
     "title": "CasaOS-TMCstore/README.md at main · mariosemes/CasaOS-TMCstore",
-    "count": 10,
+    "count": 8,
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/jellyfin",
-    "title": "CasaOS-TMCstore/Apps/jellyfin at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 9,
-    "uniques": 2
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/changedetection",
+    "title": "CasaOS-TMCstore/Apps/changedetection at main · mariosemes/CasaOS-TMCstore",
+    "count": 8,
+    "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
-    "count": 8,
-    "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 6,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/jellyfin/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/jellyfin/docker-compose.yml at main · mariosemes/CasaOS-...",
-    "count": 8,
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 6,
     "uniques": 2
   }
 ]
