@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 168,
-    "uniques": 131
+    "count": 177,
+    "uniques": 136
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 51,
+    "count": 47,
     "uniques": 19
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 34,
-    "uniques": 6
+    "count": 24,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
@@ -25,14 +25,14 @@
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 10,
-    "uniques": 3
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore",
+    "count": 8,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 10,
+    "count": 8,
     "uniques": 1
   },
   {
@@ -48,14 +48,14 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 6,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex+audnexus/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus/thumbnail.png at main · mariosemes/CasaOS-...",
     "count": 6,
     "uniques": 2
   }
