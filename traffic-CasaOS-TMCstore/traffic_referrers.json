@@ -1,13 +1,13 @@
 [
   {
     "referrer": "Google",
-    "count": 26,
+    "count": 24,
     "uniques": 7
   },
   {
     "referrer": "github.com",
-    "count": 18,
-    "uniques": 9
+    "count": 17,
+    "uniques": 8
   },
   {
     "referrer": "youtube.com",
@@ -16,6 +16,11 @@
   },
   {
     "referrer": "workona.com",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "referrer": "Bing",
     "count": 1,
     "uniques": 1
   },
