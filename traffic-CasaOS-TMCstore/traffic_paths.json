@@ -2,7 +2,7 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 190,
+    "count": 188,
     "uniques": 148
   },
   {
@@ -24,12 +24,6 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
-    "count": 12,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/adguard-sync",
     "title": "CasaOS-TMCstore/Apps/adguard-sync at main · mariosemes/CasaOS-TMCstore",
     "count": 12,
@@ -46,6 +40,12 @@
     "title": "CasaOS-TMCstore/Apps/plex+audnexus/thumbnail.png at main · mariosemes/CasaOS-...",
     "count": 10,
     "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "count": 10,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
