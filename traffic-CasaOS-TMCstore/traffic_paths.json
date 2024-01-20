@@ -2,26 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 207,
-    "uniques": 168
+    "count": 215,
+    "uniques": 177
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 40,
+    "count": 41,
     "uniques": 18
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 21,
-    "uniques": 6
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 10,
-    "uniques": 4
+    "count": 23,
+    "uniques": 7
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/docker-compose.yml",
@@ -46,6 +40,12 @@
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 8,
     "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 8,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
