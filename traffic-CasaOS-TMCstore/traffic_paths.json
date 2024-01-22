@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 226,
-    "uniques": 182
+    "count": 225,
+    "uniques": 185
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -30,26 +30,26 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 8,
-    "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
-    "count": 8,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
     "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 8,
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 6,
+    "uniques": 3
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
+    "count": 6,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 6,
     "uniques": 3
   },
