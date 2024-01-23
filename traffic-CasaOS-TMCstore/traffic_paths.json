@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 225,
-    "uniques": 185
+    "count": 232,
+    "uniques": 188
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -30,12 +30,6 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 8,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 6,
@@ -52,6 +46,12 @@
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 6,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/headphones/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/headphones/thumbnail.png at main · mariosemes/CasaOS-TMC...",
+    "count": 6,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
