@@ -5,19 +5,14 @@
     "uniques": 17
   },
   {
-    "referrer": "youtube.com",
-    "count": 12,
-    "uniques": 4
-  },
-  {
     "referrer": "Google",
-    "count": 10,
+    "count": 14,
     "uniques": 8
   },
   {
-    "referrer": "DuckDuckGo",
-    "count": 3,
-    "uniques": 1
+    "referrer": "youtube.com",
+    "count": 12,
+    "uniques": 4
   },
   {
     "referrer": "awesome.casaos.io",

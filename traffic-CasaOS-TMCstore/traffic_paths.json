@@ -2,20 +2,26 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 232,
-    "uniques": 188
+    "count": 237,
+    "uniques": 193
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 45,
-    "uniques": 20
+    "count": 47,
+    "uniques": 21
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 23,
-    "uniques": 7
+    "count": 17,
+    "uniques": 5
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/headphones/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/headphones/thumbnail.png at main · mariosemes/CasaOS-TMC...",
+    "count": 10,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/docker-compose.yml",
@@ -24,10 +30,16 @@
     "uniques": 2
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 8,
+    "uniques": 2
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
-    "count": 8,
-    "uniques": 4
+    "count": 6,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
@@ -46,17 +58,5 @@
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
     "count": 6,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/headphones/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/headphones/thumbnail.png at main · mariosemes/CasaOS-TMC...",
-    "count": 6,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 4,
-    "uniques": 2
   }
 ]
