@@ -1,0 +1,58 @@
+name: unmanic-tmc
+services:  
+  app:
+    container_name: unmanic
+    hostname: unmanic
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+    image: josh5/unmanic:latest
+    ports:
+      - target: 8888
+        published: ${WEBUI_PORT:-8888}
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/library
+        target: /library
+      - type: bind
+        source: /DATA/AppData/TMC-Store/$AppID/tmp/unmanic
+        target: /tmp/unmanic
+    networks:
+      - unmanic
+    privileged: false
+
+networks:
+  unmanic:
+    name: unmanic
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: unmanic
+  category: TMCstore
+  description:
+    en_us: Unmanic is a simple tool for optimising your file library. You can use it to convert your files into a single, uniform format, manage file movements based on timestamps, or execute custom commands against a file based on its file size.
+  developer: ""
+  icon: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/unmanic/icon.png
+  index: /
+  main: app
+  port_map: ${WEBUI_PORT:-8888}
+  scheme: http
+  tagline:
+    en_us: Simple tool for optimising your file library.
+  store_app_id: unmanic-tmc
+  title:
+    en_us: Unmanic - Library Optimiser
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/unmanic/screenshot-01.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/unmanic/screenshot-02.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/unmanic/screenshot-03.png
+    - https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/unmanic/screenshot-04.png
+  thumbnail: https://cdn.jsdelivr.net/gh/mariosemes/CasaOS-TMCstore@main/Apps/unmanic/thumbnail.png

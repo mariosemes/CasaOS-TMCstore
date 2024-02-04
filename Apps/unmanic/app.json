@@ -1,0 +1,8 @@
+{
+	"app": "Unmanic",
+	"app_url": "https://docs.unmanic.app/",
+	"image": "josh5/unmanic",
+	"image_url": "https://hub.docker.com/r/josh5/unmanic/tags",
+	"tag": "latest",
+	"description": "Unmanic is a simple tool for optimising your file library. You can use it to convert your files into a single, uniform format, manage file movements based on timestamps, or execute custom commands against a file based on its file size."
+}
