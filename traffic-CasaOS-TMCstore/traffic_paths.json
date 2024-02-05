@@ -2,32 +2,26 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 183,
-    "uniques": 147
+    "count": 187,
+    "uniques": 149
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 50,
+    "count": 49,
     "uniques": 17
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 28,
-    "uniques": 9
+    "count": 24,
+    "uniques": 8
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 24,
     "uniques": 6
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 18,
-    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
@@ -42,16 +36,22 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 12,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/jellyfin",
+    "title": "CasaOS-TMCstore/Apps/jellyfin at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 10,
+    "uniques": 3
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
     "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 9,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex%2Babsolute/README.md",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute/README.md at main · mariosemes/CasaOS-TMCs...",
-    "count": 9,
-    "uniques": 1
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
