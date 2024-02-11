@@ -2,26 +2,32 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 190,
-    "uniques": 157
+    "count": 187,
+    "uniques": 154
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 48,
-    "uniques": 20
+    "count": 44,
+    "uniques": 18
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 16,
-    "uniques": 5
+    "count": 18,
+    "uniques": 6
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 12,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
     "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 12,
-    "uniques": 3
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/jellyfin",
@@ -30,33 +36,27 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 8,
+    "uniques": 4
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/issues",
     "title": "Issues · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 8,
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
-    "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore",
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 8,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
     "count": 7,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
-    "count": 6,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 6,
-    "uniques": 2
   }
 ]
