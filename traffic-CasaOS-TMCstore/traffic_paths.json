@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 186,
-    "uniques": 155
+    "count": 182,
+    "uniques": 152
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 42,
-    "uniques": 17
+    "count": 46,
+    "uniques": 18
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 14,
-    "uniques": 5
+    "count": 12,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -36,27 +36,27 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/issues",
-    "title": "Issues · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
     "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 8,
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
-    "count": 7,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
     "count": 6,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/issues",
+    "title": "Issues · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 5,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/changedetection/thumbnail.png at main · mariosemes/CasaO...",
+    "count": 5,
+    "uniques": 2
   }
 ]
