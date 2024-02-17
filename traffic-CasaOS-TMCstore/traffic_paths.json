@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 176,
-    "uniques": 150
+    "count": 170,
+    "uniques": 139
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 43,
-    "uniques": 19
+    "count": 44,
+    "uniques": 18
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 14,
-    "uniques": 5
+    "count": 20,
+    "uniques": 6
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
@@ -54,9 +54,9 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/jellyfin",
-    "title": "CasaOS-TMCstore/Apps/jellyfin at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 5,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
+    "count": 4,
     "uniques": 2
   }
 ]
