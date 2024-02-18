@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 170,
-    "uniques": 139
+    "count": 165,
+    "uniques": 134
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 44,
-    "uniques": 18
+    "count": 47,
+    "uniques": 19
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,16 +18,16 @@
     "uniques": 6
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 10,
+    "uniques": 2
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
     "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 8,
     "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
-    "count": 6,
-    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
@@ -36,10 +36,16 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/adguard-home",
+    "title": "CasaOS-TMCstore/Apps/adguard-home at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-home/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/adguard-home/docker-compose.yml at main · mariosemes/Cas...",
+    "count": 5,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/changedetection/thumbnail.png",
@@ -51,12 +57,6 @@
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
     "count": 5,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/README.md",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/README.md at main · mariosemes/CasaOS-TMCstore...",
-    "count": 4,
     "uniques": 2
   }
 ]
