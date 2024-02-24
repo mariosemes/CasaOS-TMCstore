@@ -5,14 +5,14 @@
     "uniques": 13
   },
   {
+    "referrer": "Google",
+    "count": 6,
+    "uniques": 6
+  },
+  {
     "referrer": "youtube.com",
     "count": 6,
     "uniques": 2
-  },
-  {
-    "referrer": "Google",
-    "count": 4,
-    "uniques": 4
   },
   {
     "referrer": "Bing",
