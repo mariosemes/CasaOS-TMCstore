@@ -1,13 +1,13 @@
 [
   {
-    "referrer": "github.com",
+    "referrer": "Google",
     "count": 18,
-    "uniques": 11
+    "uniques": 9
   },
   {
-    "referrer": "Google",
+    "referrer": "github.com",
     "count": 17,
-    "uniques": 8
+    "uniques": 10
   },
   {
     "referrer": "awesome.casaos.io",
@@ -18,11 +18,6 @@
     "referrer": "DuckDuckGo",
     "count": 8,
     "uniques": 2
-  },
-  {
-    "referrer": "youtube.com",
-    "count": 6,
-    "uniques": 1
   },
   {
     "referrer": "qwant.com",

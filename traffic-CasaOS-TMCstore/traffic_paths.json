@@ -2,13 +2,13 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 204,
-    "uniques": 156
+    "count": 210,
+    "uniques": 163
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 85,
+    "count": 84,
     "uniques": 24
   },
   {
@@ -20,14 +20,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 21,
-    "uniques": 6
+    "count": 25,
+    "uniques": 7
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 15,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
     "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 17,
-    "uniques": 5
+    "count": 14,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
@@ -38,12 +44,6 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
-    "count": 12,
-    "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 12,
     "uniques": 4
   },
