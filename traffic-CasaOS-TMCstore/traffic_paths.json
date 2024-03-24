@@ -2,19 +2,19 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 190,
-    "uniques": 156
+    "count": 188,
+    "uniques": 157
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 64,
-    "uniques": 22
+    "count": 68,
+    "uniques": 23
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 35,
+    "count": 39,
     "uniques": 7
   },
   {
@@ -30,10 +30,10 @@
     "uniques": 6
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 10,
-    "uniques": 3
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
+    "count": 11,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/thumbnail.png",
@@ -42,21 +42,21 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/stirling-pdf/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/stirling-pdf/thumbnail.png at main · mariosemes/CasaOS-T...",
     "count": 9,
-    "uniques": 4
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
+    "count": 8,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
     "count": 8,
     "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/icon.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/icon.png at main · mariosemes/CasaOS-TMC...",
-    "count": 7,
-    "uniques": 2
   }
 ]
