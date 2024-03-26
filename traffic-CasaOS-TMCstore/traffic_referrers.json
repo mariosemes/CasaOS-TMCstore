@@ -6,17 +6,12 @@
   },
   {
     "referrer": "github.com",
-    "count": 6,
-    "uniques": 4
+    "count": 8,
+    "uniques": 6
   },
   {
     "referrer": "DuckDuckGo",
     "count": 2,
     "uniques": 2
-  },
-  {
-    "referrer": "yandex.ru",
-    "count": 1,
-    "uniques": 1
   }
 ]
