@@ -8,8 +8,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 37,
-    "uniques": 17
+    "count": 33,
+    "uniques": 15
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,15 +18,15 @@
     "uniques": 6
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 15,
-    "uniques": 5
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 15,
+    "count": 11,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 10,
     "uniques": 4
   },
   {
