@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 190,
+    "count": 188,
     "uniques": 156
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 33,
-    "uniques": 15
+    "count": 39,
+    "uniques": 17
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,26 +18,20 @@
     "uniques": 6
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 12,
+    "uniques": 5
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 11,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 10,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/nextcloud/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
-    "count": 9,
-    "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/red-discordbot/thumbnail.png at main · mariosemes/CasaOS...",
     "count": 9,
     "uniques": 4
   },
@@ -52,6 +46,12 @@
     "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
     "count": 8,
     "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/red-discordbot/thumbnail.png at main · mariosemes/CasaOS...",
+    "count": 7,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
