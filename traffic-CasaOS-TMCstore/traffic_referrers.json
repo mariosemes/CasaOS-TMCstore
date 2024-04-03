@@ -1,8 +1,8 @@
 [
   {
     "referrer": "Google",
-    "count": 17,
-    "uniques": 9
+    "count": 18,
+    "uniques": 11
   },
   {
     "referrer": "github.com",
@@ -11,8 +11,8 @@
   },
   {
     "referrer": "youtube.com",
-    "count": 9,
-    "uniques": 1
+    "count": 11,
+    "uniques": 2
   },
   {
     "referrer": "awesome.casaos.io",
