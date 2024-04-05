@@ -2,26 +2,26 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 203,
-    "uniques": 159
+    "count": 210,
+    "uniques": 169
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 48,
-    "uniques": 16
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
-    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 10,
-    "uniques": 2
+    "count": 40,
+    "uniques": 13
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/red-discordbot",
     "title": "CasaOS-TMCstore/Apps/red-discordbot at main · mariosemes/CasaOS-TMCstore",
     "count": 10,
     "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 8,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -42,14 +42,14 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 6,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
     "count": 6,
     "uniques": 3
   },
