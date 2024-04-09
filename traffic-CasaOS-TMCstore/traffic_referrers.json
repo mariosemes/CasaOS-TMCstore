@@ -5,14 +5,14 @@
     "uniques": 9
   },
   {
-    "referrer": "github.com",
-    "count": 17,
-    "uniques": 10
-  },
-  {
     "referrer": "youtube.com",
     "count": 16,
     "uniques": 3
+  },
+  {
+    "referrer": "github.com",
+    "count": 15,
+    "uniques": 8
   },
   {
     "referrer": "awesome.casaos.io",
