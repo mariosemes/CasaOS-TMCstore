@@ -2,17 +2,17 @@
   {
     "referrer": "Google",
     "count": 20,
+    "uniques": 10
+  },
+  {
+    "referrer": "github.com",
+    "count": 16,
     "uniques": 9
   },
   {
     "referrer": "youtube.com",
     "count": 16,
     "uniques": 3
-  },
-  {
-    "referrer": "github.com",
-    "count": 15,
-    "uniques": 8
   },
   {
     "referrer": "awesome.casaos.io",
