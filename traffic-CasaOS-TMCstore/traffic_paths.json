@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 223,
-    "uniques": 179
+    "count": 226,
+    "uniques": 180
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -24,12 +24,6 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 8,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/icon.png",
     "title": "CasaOS-TMCstore/Apps/red-discordbot/icon.png at main · mariosemes/CasaOS-TMCs...",
     "count": 8,
@@ -42,21 +36,27 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/unmanic/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/unmanic/thumbnail.png at main · mariosemes/CasaOS-TMCsto...",
-    "count": 6,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
     "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/red-discordbot/docker-compose.yml at main · mariosemes/C...",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/red-discordbot/thumbnail.png at main · mariosemes/CasaOS...",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/icon.png",
+    "title": "CasaOS-TMCstore/Apps/watchtower/icon.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 5,
+    "uniques": 2
   }
 ]
