@@ -2,20 +2,32 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 234,
-    "uniques": 184
+    "count": 243,
+    "uniques": 189
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 54,
-    "uniques": 18
+    "count": 57,
+    "uniques": 19
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
+    "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 12,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore",
+    "count": 12,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 12,
-    "uniques": 4
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore",
+    "count": 10,
+    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/red-discordbot",
@@ -24,15 +36,15 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
-    "title": "CasaOS-TMCstore/Assets at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 9,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/.github/workflows",
     "title": "CasaOS-TMCstore/.github/workflows at main · mariosemes/CasaOS-TMCstore",
     "count": 9,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
+    "count": 7,
     "uniques": 2
   },
   {
@@ -42,21 +54,9 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
-    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
-    "count": 6,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/red-discordbot/docker-compose.yml at main · mariosemes/C...",
-    "count": 6,
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/changedetection",
+    "title": "CasaOS-TMCstore/Apps/changedetection at main · mariosemes/CasaOS-TMCstore · G...",
+    "count": 7,
     "uniques": 2
   }
 ]
