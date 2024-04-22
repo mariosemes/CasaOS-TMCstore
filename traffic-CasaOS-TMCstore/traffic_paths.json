@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 216,
-    "uniques": 169
+    "count": 214,
+    "uniques": 166
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 49,
-    "uniques": 20
+    "count": 47,
+    "uniques": 19
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 20,
-    "uniques": 5
+    "count": 25,
+    "uniques": 6
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -24,22 +24,16 @@
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
+    "count": 9,
+    "uniques": 3
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/icon.png",
     "title": "CasaOS-TMCstore/Apps/isponsorblocktv/icon.png at main · mariosemes/CasaOS-TMC...",
     "count": 7,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/adguard-home",
-    "title": "CasaOS-TMCstore/Apps/adguard-home at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 7,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 7,
-    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/.github/workflows/main.yml",
@@ -52,6 +46,12 @@
     "title": "CasaOS-TMCstore/Apps/ghost/screenshot-03.png at main · mariosemes/CasaOS-TMCs...",
     "count": 7,
     "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/issues",
+    "title": "Issues · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 6,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
