@@ -2,37 +2,37 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 202,
+    "count": 196,
     "uniques": 163
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 47,
-    "uniques": 20
+    "count": 54,
+    "uniques": 25
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 25,
-    "uniques": 6
+    "count": 15,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 10,
-    "uniques": 5
+    "count": 12,
+    "uniques": 6
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/ghost",
     "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 2
+    "count": 12,
+    "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/icon.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/icon.png at main · mariosemes/CasaOS-TMC...",
-    "count": 7,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/ghost/docker-compose.yml at main · mariosemes/CasaOS-TMC...",
+    "count": 8,
     "uniques": 3
   },
   {
@@ -42,21 +42,21 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/ghost/docker-compose.yml at main · mariosemes/CasaOS-TMC...",
-    "count": 6,
-    "uniques": 2
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/nextcloud/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/nextcloud/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 6,
-    "uniques": 2
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/issues",
     "title": "Issues · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 5,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/adguard-home/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/adguard-home/thumbnail.png at main · mariosemes/CasaOS-T...",
+    "count": 5,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/icon.png",
+    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/icon.png at main · mariosemes/CasaOS-TMC...",
+    "count": 5,
+    "uniques": 2
   }
 ]
