@@ -2,32 +2,32 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 191,
-    "uniques": 165
+    "count": 188,
+    "uniques": 159
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 50,
-    "uniques": 22
+    "count": 46,
+    "uniques": 20
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 18,
+    "uniques": 8
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 16,
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/ghost",
     "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 15,
     "uniques": 5
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 14,
-    "uniques": 7
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
-    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 14,
-    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/docker-compose.yml",
