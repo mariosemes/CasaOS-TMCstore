@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 185,
-    "uniques": 154
+    "count": 186,
+    "uniques": 156
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 56,
-    "uniques": 20
+    "count": 51,
+    "uniques": 18
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,34 +18,28 @@
     "uniques": 6
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/ghost",
-    "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 15,
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 12,
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
-    "count": 14,
-    "uniques": 6
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
+    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 10,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/ghost",
+    "title": "CasaOS-TMCstore/Apps/ghost at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 9,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
     "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore",
     "count": 9,
     "uniques": 1
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/ghost/docker-compose.yml at main · mariosemes/CasaOS-TMC...",
-    "count": 8,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
-    "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 8,
-    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Assets",
@@ -56,6 +50,12 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "count": 6,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
+    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
     "count": 6,
     "uniques": 3
   }
