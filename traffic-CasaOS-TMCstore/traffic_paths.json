@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 206,
-    "uniques": 169
+    "count": 198,
+    "uniques": 164
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 27,
-    "uniques": 10
+    "count": 26,
+    "uniques": 11
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
@@ -48,14 +48,14 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
-    "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/icon.png",
     "title": "CasaOS-TMCstore/Apps/watchtower/icon.png at main · mariosemes/CasaOS-TMCstore",
+    "count": 8,
+    "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/unmanic",
+    "title": "CasaOS-TMCstore/Apps/unmanic at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 8,
     "uniques": 1
   }
