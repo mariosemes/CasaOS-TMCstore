@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 220,
-    "uniques": 180
+    "count": 216,
+    "uniques": 175
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -36,12 +36,6 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/plex+audnexus/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus/thumbnail.png at main · mariosemes/CasaOS-...",
-    "count": 8,
-    "uniques": 4
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/unmanic",
     "title": "CasaOS-TMCstore/Apps/unmanic at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 8,
@@ -56,6 +50,12 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/speedtest-tracker/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/speedtest-tracker/thumbnail.png at main · mariosemes/Cas...",
+    "count": 7,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/red-discordbot",
+    "title": "CasaOS-TMCstore/Apps/red-discordbot at main · mariosemes/CasaOS-TMCstore · Gi...",
     "count": 7,
     "uniques": 3
   }
