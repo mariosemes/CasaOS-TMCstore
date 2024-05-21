@@ -1,13 +1,8 @@
 [
   {
     "referrer": "Google",
-    "count": 35,
-    "uniques": 12
-  },
-  {
-    "referrer": "github.com",
-    "count": 18,
-    "uniques": 10
+    "count": 37,
+    "uniques": 14
   },
   {
     "referrer": "Bing",
@@ -15,8 +10,13 @@
     "uniques": 1
   },
   {
-    "referrer": "youtube.com",
-    "count": 2,
+    "referrer": "github.com",
+    "count": 14,
+    "uniques": 9
+  },
+  {
+    "referrer": "awesome.casaos.io",
+    "count": 3,
     "uniques": 2
   },
   {
@@ -25,7 +25,7 @@
     "uniques": 2
   },
   {
-    "referrer": "awesome.casaos.io",
+    "referrer": "youtube.com",
     "count": 1,
     "uniques": 1
   }
