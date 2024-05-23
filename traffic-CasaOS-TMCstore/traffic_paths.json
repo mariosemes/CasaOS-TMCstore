@@ -2,38 +2,32 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 207,
-    "uniques": 172
+    "count": 205,
+    "uniques": 169
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 55,
-    "uniques": 21
+    "count": 62,
+    "uniques": 23
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 14,
-    "uniques": 5
+    "count": 26,
+    "uniques": 7
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 12,
-    "uniques": 5
+    "count": 10,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
     "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstor...",
     "count": 8,
     "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 3
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/adguard-sync",
@@ -48,15 +42,21 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/red-discordbot/docker-compose.yml at main · mariosemes/C...",
-    "count": 7,
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
+    "title": "GitHub - mariosemes/CasaOS-TMCstore: It's important to note that this App Sto...",
+    "count": 5,
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/red-discordbot",
-    "title": "CasaOS-TMCstore/Apps/red-discordbot at main · mariosemes/CasaOS-TMCstore · Gi...",
-    "count": 7,
-    "uniques": 3
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/red-discordbot/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/red-discordbot/docker-compose.yml at main · mariosemes/C...",
+    "count": 5,
+    "uniques": 2
   }
 ]
