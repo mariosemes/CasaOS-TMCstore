@@ -2,20 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 209,
-    "uniques": 169
+    "count": 221,
+    "uniques": 174
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 82,
-    "uniques": 30
+    "count": 75,
+    "uniques": 26
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 26,
-    "uniques": 7
+    "count": 16,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
@@ -24,16 +24,16 @@
     "uniques": 1
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
+    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
+    "count": 13,
+    "uniques": 6
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
     "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 13,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
-    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstor...",
-    "count": 8,
-    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -48,15 +48,15 @@
     "uniques": 1
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
+    "title": "GitHub - mariosemes/CasaOS-TMCstore: It's important to note that this App Sto...",
+    "count": 7,
+    "uniques": 4
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/icon.png",
     "title": "CasaOS-TMCstore/Apps/watchtower/icon.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 7,
     "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
-    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 6,
-    "uniques": 2
   }
 ]
