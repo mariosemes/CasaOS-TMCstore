@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 224,
-    "uniques": 174
+    "count": 216,
+    "uniques": 165
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 82,
-    "uniques": 26
+    "count": 78,
+    "uniques": 24
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -18,16 +18,16 @@
     "uniques": 6
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 17,
-    "uniques": 5
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
     "count": 15,
     "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
+    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
+    "count": 13,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
@@ -36,16 +36,16 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
-    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
-    "count": 11,
-    "uniques": 5
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
     "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 11,
     "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
+    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
+    "count": 9,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
