@@ -2,26 +2,20 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 216,
-    "uniques": 165
+    "count": 208,
+    "uniques": 158
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 78,
-    "uniques": 24
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
-    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 20,
-    "uniques": 6
+    "count": 70,
+    "uniques": 22
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
     "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
-    "count": 15,
-    "uniques": 1
+    "count": 17,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
@@ -45,6 +39,12 @@
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
     "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
     "count": 9,
+    "uniques": 4
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 8,
     "uniques": 4
   },
   {
