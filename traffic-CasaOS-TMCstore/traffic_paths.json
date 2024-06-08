@@ -2,25 +2,25 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 224,
-    "uniques": 180
+    "count": 219,
+    "uniques": 182
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 74,
-    "uniques": 24
+    "count": 75,
+    "uniques": 25
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
+    "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 18,
+    "uniques": 6
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Babsolute",
     "title": "CasaOS-TMCstore/Apps/plex+absolute at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 17,
-    "uniques": 5
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
-    "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 16,
     "uniques": 5
   },
   {
@@ -30,10 +30,10 @@
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Assets/how-to-install.gif",
-    "title": "CasaOS-TMCstore/Assets/how-to-install.gif at main · mariosemes/CasaOS-TMCstore",
-    "count": 11,
-    "uniques": 5
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "count": 12,
+    "uniques": 4
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
@@ -42,21 +42,21 @@
     "uniques": 5
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/watchtower/docker-compose.yml at main · mariosemes/CasaO...",
     "count": 10,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 9,
-    "uniques": 4
+    "uniques": 5
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/icon.png",
     "title": "CasaOS-TMCstore/Apps/watchtower/icon.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 9,
+    "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/jellyfin",
+    "title": "CasaOS-TMCstore/Apps/jellyfin at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 8,
     "uniques": 3
   }
 ]
