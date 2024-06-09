@@ -1,8 +1,8 @@
 [
   {
     "referrer": "Google",
-    "count": 47,
-    "uniques": 9
+    "count": 48,
+    "uniques": 10
   },
   {
     "referrer": "reddit.com",
@@ -25,12 +25,12 @@
     "uniques": 1
   },
   {
-    "referrer": "DuckDuckGo",
-    "count": 2,
-    "uniques": 2
+    "referrer": "Bing",
+    "count": 1,
+    "uniques": 1
   },
   {
-    "referrer": "Bing",
+    "referrer": "DuckDuckGo",
     "count": 1,
     "uniques": 1
   }
