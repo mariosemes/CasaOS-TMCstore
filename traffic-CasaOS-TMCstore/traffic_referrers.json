@@ -1,13 +1,13 @@
 [
   {
+    "referrer": "reddit.com",
+    "count": 50,
+    "uniques": 3
+  },
+  {
     "referrer": "Google",
     "count": 30,
     "uniques": 7
-  },
-  {
-    "referrer": "reddit.com",
-    "count": 19,
-    "uniques": 2
   },
   {
     "referrer": "search.brave.com",
