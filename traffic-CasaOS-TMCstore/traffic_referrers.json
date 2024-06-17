@@ -6,13 +6,13 @@
   },
   {
     "referrer": "Google",
-    "count": 30,
-    "uniques": 7
+    "count": 27,
+    "uniques": 6
   },
   {
     "referrer": "search.brave.com",
-    "count": 17,
-    "uniques": 2
+    "count": 16,
+    "uniques": 1
   },
   {
     "referrer": "github.com",
@@ -23,11 +23,6 @@
     "referrer": "DuckDuckGo",
     "count": 3,
     "uniques": 2
-  },
-  {
-    "referrer": "youtube.com",
-    "count": 3,
-    "uniques": 1
   },
   {
     "referrer": "Bing",
