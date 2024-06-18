@@ -2,20 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 206,
-    "uniques": 164
+    "count": 193,
+    "uniques": 151
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 65,
-    "uniques": 28
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
-    "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 16,
-    "uniques": 5
+    "count": 50,
+    "uniques": 22
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/edit/main/README.md",
@@ -24,15 +18,9 @@
     "uniques": 1
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 13,
-    "uniques": 4
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
-    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 11,
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/watchtower",
+    "title": "CasaOS-TMCstore/Apps/watchtower at main · mariosemes/CasaOS-TMCstore",
+    "count": 14,
     "uniques": 4
   },
   {
@@ -42,10 +30,16 @@
     "uniques": 4
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/icon.png",
-    "title": "CasaOS-TMCstore/Apps/watchtower/icon.png at main · mariosemes/CasaOS-TMCstore...",
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
+    "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 9,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
+    "count": 9,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/docker-compose.yml",
@@ -58,5 +52,11 @@
     "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
     "count": 8,
     "uniques": 3
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/watchtower/icon.png",
+    "title": "CasaOS-TMCstore/Apps/watchtower/icon.png at main · mariosemes/CasaOS-TMCstore",
+    "count": 7,
+    "uniques": 2
   }
 ]
