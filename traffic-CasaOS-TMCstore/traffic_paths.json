@@ -2,14 +2,14 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 192,
-    "uniques": 150
+    "count": 183,
+    "uniques": 144
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
     "title": "CasaOS-TMCstore/Apps at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 50,
-    "uniques": 22
+    "count": 46,
+    "uniques": 20
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/edit/main/README.md",
@@ -24,18 +24,6 @@
     "uniques": 3
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/chatpadai",
-    "title": "CasaOS-TMCstore/Apps/chatpadai at main · mariosemes/CasaOS-TMCstore · GitHub",
-    "count": 8,
-    "uniques": 3
-  },
-  {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/docker-compose.yml",
-    "title": "CasaOS-TMCstore/Apps/chatpadai/docker-compose.yml at main · mariosemes/CasaOS...",
-    "count": 8,
-    "uniques": 2
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
     "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
     "count": 7,
@@ -48,14 +36,26 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/ghost/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/ghost/thumbnail.png at main · mariosemes/CasaOS-TMCstore...",
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/headphones/thumbnail.png",
+    "title": "CasaOS-TMCstore/Apps/headphones/thumbnail.png at main · mariosemes/CasaOS-TMC...",
     "count": 6,
     "uniques": 3
   },
   {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/chatpadai",
+    "title": "CasaOS-TMCstore/Apps/chatpadai at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 6,
+    "uniques": 2
+  },
+  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/nextcloud",
     "title": "CasaOS-TMCstore/Apps/nextcloud at main · mariosemes/CasaOS-TMCstore · GitHub",
+    "count": 6,
+    "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
+    "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 6,
     "uniques": 2
   }
