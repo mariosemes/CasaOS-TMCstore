@@ -2,8 +2,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore",
     "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
-    "count": 187,
-    "uniques": 151
+    "count": 181,
+    "uniques": 147
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps",
@@ -20,8 +20,8 @@
   {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/isponsorblocktv/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/isponsorblocktv/thumbnail.png at main · mariosemes/CasaO...",
-    "count": 15,
-    "uniques": 3
+    "count": 11,
+    "uniques": 2
   },
   {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/.github/workflows",
@@ -36,27 +36,27 @@
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex%2Baudnexus",
-    "title": "CasaOS-TMCstore/Apps/plex+audnexus at main · mariosemes/CasaOS-TMCstore · Git...",
-    "count": 7,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/thumbnail.png",
     "title": "CasaOS-TMCstore/Apps/chatpadai/thumbnail.png at main · mariosemes/CasaOS-TMCs...",
     "count": 7,
     "uniques": 2
   },
   {
-    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/headphones/thumbnail.png",
-    "title": "CasaOS-TMCstore/Apps/headphones/thumbnail.png at main · mariosemes/CasaOS-TMC...",
-    "count": 6,
-    "uniques": 3
-  },
-  {
     "path": "/mariosemes/CasaOS-TMCstore/tree/main/Apps/plex",
     "title": "CasaOS-TMCstore/Apps/plex at main · mariosemes/CasaOS-TMCstore · GitHub",
     "count": 6,
     "uniques": 2
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/blob/main/Apps/chatpadai/docker-compose.yml",
+    "title": "CasaOS-TMCstore/Apps/chatpadai/docker-compose.yml at main · mariosemes/CasaOS...",
+    "count": 6,
+    "uniques": 1
+  },
+  {
+    "path": "/mariosemes/CasaOS-TMCstore/tree/main",
+    "title": "mariosemes/CasaOS-TMCstore: It's important to note that this App Store is not...",
+    "count": 5,
+    "uniques": 3
   }
 ]
